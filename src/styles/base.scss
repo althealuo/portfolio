@@ -1,0 +1,16 @@
+// base.scss
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mukta', sans-serif;
+  background-color: var(--main-color-bg);
+  color: var(--main-color-text);
+  line-height: 1.6;
+}
+html {
+  scroll-behavior: smooth;
+}
