@@ -1,12 +1,17 @@
+import { useState } from "react";
 import Nav from "./components/Nav";
+import "./styles/main.scss";
 
 function App() {
+  const [section, setSection] = useState("portfolio");
+
   return (
-    <div>
-      <Nav active="portfolio" onNavigate={() => {}} />
-      {/* <h1>Hello from React</h1> */}
-    </div>
+    <>
+      <Nav active={section} onNavigate={setSection} />
+      <h1>{section}</h1>
+    </>
   );
 }
 
 export default App;
+
