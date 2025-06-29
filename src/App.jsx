@@ -2,6 +2,7 @@ import { useState } from "react";
 import Nav from "./components/Nav";
 import Landing from "./sections/Landing";
 import Projects from "./sections/Projects";
+import About from "./sections/About";
 
 
 import "./styles/main.scss";
@@ -19,8 +20,7 @@ function App() {
           <Projects />
         </div>
       )}
-
-      {/* {section === "about" && <About />} */}
+      {section === "about" && <About />}
     </>
   );
 }

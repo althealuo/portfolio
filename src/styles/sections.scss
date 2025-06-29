@@ -12,10 +12,10 @@
 .landing {
   text-align: center;
   .title {
-    font-weight: 400;
-    font-family: "Spectral", serif;
+    font-weight: $weight-normal;
+    font-family: $font-title;
     font-size: 4rem;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
   }
 }
 
