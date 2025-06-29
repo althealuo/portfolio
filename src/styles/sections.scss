@@ -1,35 +1,37 @@
 // components/_sections.scss
 @use 'variables' as *;
 .section {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 4rem 2rem;
-  max-width: 960px;
-  margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // padding: 4rem 2rem;
+    // max-width: 960px;
+    margin: 0 auto;
 }
-
 .landing {
   text-align: center;
-
   .title {
-    font-weight: $weight-normal;
-    font-family: $font-title;
+    font-weight: 400;
+    font-family: "Spectral", serif;
     font-size: 4rem;
     margin-bottom: 2rem;
   }
 }
 
+
 .content-section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
 //   gap: 6rem;
 
   .artwork {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    width: 56%;
 
     .project-image {
         width: 100%;
