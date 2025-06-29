@@ -2,7 +2,8 @@
 import "../styles/navbar.scss";
 
 function Nav({ active, onNavigate }) {
-  const navItems = ["Portfolio", "About", "Contact"];
+  const navItems = ["Portfolio", "About"];
+  // const navItems = ["Portfolio", "About", "Contact"];
 
   return (
     <nav className="navbar">

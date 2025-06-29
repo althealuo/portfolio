@@ -10,9 +10,17 @@ function About() {
         </div>
         <div className="about-text">
           <p className="intro MainColorText"><span className="highlight">hi,</span></p>
-          <p className="description MainColorText">
-            I'm broadly interested in using AI to understand the mind and creating artistic works.
-          </p>
+            <p className="description MainColorText">
+                Broadly, I'm interested in using AI to understand the mind and to create artistic works.
+            </p>
+            <br />
+            <p className="description MainColorText">
+                My current thoughts are on
+            </p>
+            <ul className="description MainColorText">
+                <li>Modeling decision-making processes using ML approaches</li>
+                <li>Creating adaptive immersive VR worlds based on human data</li>
+            </ul>
         </div>
       </div>
     </section>
