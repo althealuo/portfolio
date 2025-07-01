@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Landing from "./sections/Landing";
 import Projects from "./sections/Projects";
 import About from "./sections/About";
+import MLProjects from "./sections/MLProjects";
 
 
 import "./styles/main.scss";
@@ -18,6 +19,7 @@ function App() {
         <div id="portfolio">
           <Landing />
           <Projects />
+          <MLProjects />
         </div>
       )}
       {section === "about" && <About />}

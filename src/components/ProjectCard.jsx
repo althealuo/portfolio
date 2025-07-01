@@ -1,15 +1,17 @@
+// src/components/ProjectCard.jsx
+import FadeWrapper from "./FadeWrapper";
 import "../styles/sections.scss";
 
-function ProjectCard({ title, tools, image, hoverImage, link }) {
+function ProjectCard({ title, tools, image, hoverImage, hoverVideo, link }) {
   return (
     <div className="artwork">
       <a href={link} className="project-link">
-        <div className="image-fade-wrapper">
-          <img src={image} alt={title} className="project-image default-img" />
-          {hoverImage && (
-            <img src={hoverImage} alt={`${title} (alt)`} className="project-image hover-img" />
-          )}
-        </div>
+        <FadeWrapper
+          defaultSrc={image}
+          hoverImage={hoverImage}
+          hoverVideo={hoverVideo}
+          alt={title}
+        />
         <div className="caption">
           <span className="title MainColorText">{title}</span>
           <span className="tools MainColorSubtext">{tools}</span>
