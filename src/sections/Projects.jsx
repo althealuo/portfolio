@@ -4,14 +4,14 @@ import "../styles/sections.scss";
 
 function Projects() {
   const projectList = [
-    {
-      title: "Gyroscope",
-      tools: "Blender, Substance Painter, ZBrush",
-      image: "/img/gyro/main.png",
-      hoverVideo: "/img/gyro/animation.mp4",
-      hoverImage: null,
-      link: "gyro.html",
-    },
+    // {
+    //   title: "Gyroscope",
+    //   tools: "Blender, Substance Painter, ZBrush",
+    //   image: "/img/gyro/main.png",
+    //   hoverVideo: "/img/gyro/animation.mp4",
+    //   hoverImage: null,
+    //   link: "gyro.html",
+    // },
     {
       title: "Wizard’s Table",
       tools: "Blender, Substance Painter, ZBrush",
@@ -31,7 +31,7 @@ function Projects() {
   ];
 
   return (
-    <section className="section content-section">
+    <section className="section content-section"  id="arts">
       {projectList.map((proj) => (
         <ProjectCard key={proj.title} {...proj} />
       ))}

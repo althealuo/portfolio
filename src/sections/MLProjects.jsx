@@ -14,7 +14,7 @@ function MLProjects() {
   ];
 
   return (
-    <section className="ml-section">
+    <section className="ml-section" id="mind">
       {mlProjects.map((proj) => (
         <MLProjectCard key={proj.title} {...proj} />
       ))}
