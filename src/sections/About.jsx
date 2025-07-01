@@ -1,8 +1,8 @@
-import "../styles/sections.scss";
+import "../styles/about.scss";
 
 function About() {
   return (
-    <section className="section about-section">
+    <section className="about-section">
       <div className="about-content">
         <div className="about-image">
           <img src="/img/portrait.jpg" alt="Althea Portrait" className="portrait-img" />

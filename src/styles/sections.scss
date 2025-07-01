@@ -135,107 +135,52 @@
       display: flex;
       justify-content: space-between;
       margin-top: 0.5rem;
-      font-size: 1.5rem;
       flex-wrap: wrap;
       align-items: center;
 
-      .title {
-        font-weight: $weight-normal;
-        font-family: $font-title;
-      }
+      // .title {
+      //   font-weight: $weight-normal;
+      //   font-family: $font-title;
+      // }
 
-      .tools {
-        // font-style: italic;
-        color: var(--main-color-subtext);
-        font-size: 0.8rem;
-      }
+      // .tools {
+      //   // font-style: italic;
+      //   color: var(--main-color-subtext);
+      //   font-size: 0.8rem;
+      // }
     }
   }
 }
 
-.about-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100%;
 
-  .about-content {
-    display: flex;
-    gap: 3rem;
-    align-items: center;
-    width: 80%;
-    padding: 2rem;
-  }
+.title {
+  font-weight: $weight-normal;
+  font-family: $font-title;
+  font-size: 1.25rem;
+}
 
-  .about-image {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .portrait-img {
-        width: 300px;
-        height: auto;
-        border-radius: 8px;
-        object-fit: cover;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-    .portrait-caption {
-      margin-top: 0.5rem;
-      font-size: 0.85rem;
-    }
-  }
-
-  .about-text {
-    flex: 1;
-
-    .intro {
-      font-family: 'Spectral', serif;
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-
-    .description {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-  }
-  .about-text ul {
-    padding-left: 1.5rem;
-    margin-top: 0.5rem;
-    line-height: 1.6;
-  }
-
+.tools {
+  font-weight: $weight-normal;
+  color: var(--main-color-subtext);
+  font-size: 0.8rem;
 }
 
 
-
-@media (max-width: 768px) {
-  .about-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-//   .about-text {
-//     margin-top: 2rem;
-//   }
-}
+// MLProjects Section
 
 .ml-section {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 32px 16px;
+  gap: 64px;
   align-items: center;
+  width: 100%;
 }
 
 .ml-card {
   background-color: white;
   padding: 24px;
-  max-width: 720px;
-  width: 100%;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+  width: 56%;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
