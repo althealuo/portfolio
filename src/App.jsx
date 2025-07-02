@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Nav from "./components/Nav";
 import SideNav from "./components/SideNav";
+import Divider from "./components/Divider";
 import Landing from "./sections/Landing";
 import Featured from "./sections/Featured";
 import Projects from "./sections/Projects";
@@ -22,8 +23,13 @@ function App() {
           <Landing />
           <SideNav /> 
           <Featured /> 
+          <Divider />
+
           <MLProjects />
+          <Divider />
+
           <Projects />
+          <Divider />
         </div>
       )}
       {section === "about" && <About />}
