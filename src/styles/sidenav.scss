@@ -1,10 +1,10 @@
 @use 'variables' as *;
+
 .side-nav {
   position: fixed;
   top: 50%;
   right: 16px;
   transform: translateY(-50%);
-//   writing-mode: vertical-rl;
   text-align: center;
   z-index: 1000;
 
@@ -12,26 +12,43 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 16px;
+    // gap: 64px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
-    li a {
-      font-size: 14px;
-      font-family: $font-body;
-      color: var(--main-color-subtext);
-      text-decoration: none;
-      transition: color 0.3s;
-      writing-mode: vertical-rl;
+    li {
+      transition: opacity 0.2s ease;
+      padding: 40px 0;
 
-      &:hover {
-        color: var(--main-color-highlight);
+      a {
+        font-size: 14px;
+        font-family: $font-body;
+        color: var(--main-color-subtext);
+        text-decoration: none;
+        transition: color 0.3s, transform 0.3s;
+        writing-mode: vertical-rl;
+
+        &:hover {
+          color: var(--main-color-highlight);
+        }
+
+        span {
+          font-size: 16px;
+          display: block;
+        }
       }
+    }
 
-      span {
-        font-size: 16px;
-        display: block;
-      }
+    &:hover li {
+    //   transform: scale(0.95); // slightly shrink all items
+        opacity: 0.4;
+    }
+
+    &:hover li:hover {
+    //   transform: scale(1.1); // expand the hovered item
+      z-index: 1;
+      opacity: 1;
     }
   }
 }

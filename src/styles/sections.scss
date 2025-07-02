@@ -113,7 +113,7 @@
             opacity: 0;
         }
     }
-
+    
     .project-link {
         text-decoration: none;
         display: block;
@@ -157,9 +157,16 @@
 .title {
   font-weight: $weight-normal;
   font-family: $font-title;
-  font-size: 1.25rem;
-}
+  font-size: 1.25rem;  
+  transition: color 0.3s ease;
 
+}
+.artwork:hover .title {
+  color: var(--main-color-highlight);
+}
+.ml-card:hover .title {
+  color: var(--main-color-highlight);
+}
 .tools {
   font-weight: $weight-normal;
   color: var(--main-color-subtext);
@@ -175,6 +182,8 @@
   gap: 64px;
   align-items: center;
   width: 100%;
+  height: 70vh;
+  justify-content: center;
 }
 
 .ml-card {

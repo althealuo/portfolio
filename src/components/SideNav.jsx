@@ -8,7 +8,7 @@ function SideNav() {
     <nav className="side-nav">
       <ul>
         <li className="arrow-icon">
-          <a href="#top" title="Back to top">
+          <a href="#top">
             <FontAwesomeIcon icon={faArrowUp} />
           </a>
         </li>
