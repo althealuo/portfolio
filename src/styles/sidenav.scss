@@ -4,7 +4,7 @@
   top: 50%;
   right: 16px;
   transform: translateY(-50%);
-  writing-mode: vertical-rl;
+//   writing-mode: vertical-rl;
   text-align: center;
   z-index: 1000;
 
@@ -22,6 +22,7 @@
       color: var(--main-color-subtext);
       text-decoration: none;
       transition: color 0.3s;
+      writing-mode: vertical-rl;
 
       &:hover {
         color: var(--main-color-highlight);
