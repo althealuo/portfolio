@@ -1,0 +1,14 @@
+@use 'variables' as *;
+
+.footer {
+  padding: 32px 16px;
+  text-align: center;
+  background-color: var(--main-color-bg);
+  
+
+  .footer-text {
+    font-family: $font-body;
+    font-size: 14px;
+    color: var(--main-color-subtext);
+  }
+}

@@ -7,6 +7,7 @@ import Featured from "./sections/Featured";
 import Projects from "./sections/Projects";
 import About from "./sections/About";
 import MLProjects from "./sections/MLProjects";
+import Footer from "./sections/Footer";
 
 
 import "./styles/main.scss";
@@ -33,6 +34,7 @@ function App() {
         </div>
       )}
       {section === "about" && <About />}
+      <Footer />
     </>
   );
 }
