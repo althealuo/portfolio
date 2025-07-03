@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer">
       <p className="footer-text MainColorSubtext">
-        © {new Date().getFullYear()} Althea Luo — All rights reserved.
+        © {new Date().getFullYear()} All by Althea
       </p>
     </footer>
   );

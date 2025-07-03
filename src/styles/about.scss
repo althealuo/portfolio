@@ -8,9 +8,9 @@
 
   .about-content {
     display: flex;
-    gap: 3rem;
+    gap: 96px;
     align-items: center;
-    width: 80%;
+    width: 70%;
     padding: 2rem;
   }
 
@@ -34,6 +34,8 @@
 
   .about-text {
     flex: 1;
+    font-size: 1rem;
+    line-height: 1.5;
 
     .intro {
       font-family: 'Spectral', serif;
@@ -41,14 +43,9 @@
       margin-bottom: 1rem;
     }
 
-    .description {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
   }
   .about-text ul {
     padding-left: 1.5rem;
-    margin-top: 0.5rem;
     line-height: 1.6;
   }
 

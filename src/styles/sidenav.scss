@@ -18,16 +18,17 @@
     align-items: center;
 
     li {
-      transition: opacity 0.2s ease;
-      padding: 40px 0;
+      transition: transform 0.5s ease, opacity 0.2s ease;
 
       a {
         font-size: 14px;
         font-family: $font-body;
         color: var(--main-color-subtext);
         text-decoration: none;
-        transition: color 0.3s, transform 0.3s;
+        transition: color 0.3s, 
+        transform 0.3s;
         writing-mode: vertical-rl;
+        padding: 40px 10px 40px 20px;
 
         &:hover {
           color: var(--main-color-highlight);
@@ -49,6 +50,11 @@
     //   transform: scale(1.1); // expand the hovered item
       z-index: 1;
       opacity: 1;
+      transform: rotate(-90deg);
+    }
+
+    &:hover li.arrow-icon:hover  {
+      transform: none;
     }
   }
 }
