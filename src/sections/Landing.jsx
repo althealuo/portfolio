@@ -1,18 +1,20 @@
-import "../styles/sections.scss";
+import "../styles/landing.scss";
 
 function Landing() {
   return (
     <section className="section landing">
-      <div className="landing-content">
-        <h1 className="landing-name">
-            Althea Luo
-        </h1>
-
-        <hr className="landing-divider" />
-        <div className="MainColorSubtext">
-          <p>Understanding the mind with AI</p>
-          <p className="landing-and">&amp;</p>
-          <p>creating artistic worlds</p>
+      <div className="landing-container">
+        <div className="landing-left">
+          <p className="landing-title">
+            Althea
+          </p>
+          <div className="title-underline" />
+        </div>
+        <div className="landing-right">
+          <div className="landing-divider" />
+          <p className="landing-subtext">Understanding the mind with AI</p>
+          <p className="landing-subtext highlight">&</p>
+          <p className="landing-subtext">creating artistic worlds</p>
         </div>
       </div>
     </section>
@@ -20,3 +22,4 @@ function Landing() {
 }
 
 export default Landing;
+

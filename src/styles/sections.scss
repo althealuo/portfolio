@@ -10,58 +10,6 @@
     margin: 0 auto;
 }
 
-// Landing Section
-.landing {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
-
-  .landing-content {
-    max-width: 600px;
-    width: 100%;
-    padding: 16px; // 2 x 8pt
-  }
-
-  .landing-name {
-    font-family: $font-title;
-    font-size: 48px;
-    font-weight: $weight-normal;
-    color: var(--main-color-highlight);
-    margin-bottom: 16px;
-
-    &::first-letter {
-      color: #bb242c;
-    }
-  }
-
-  .landing-divider {
-    width: 100%;
-    height: 1px;
-    background-color: #ccc;
-    border: none;
-    margin: 16px 0 32px;
-  }
-
-  .landing-subtext {
-    font-family: $font-body;
-    font-size: 18px; // 2.25 x 8pt = nearest readable step
-    color: var(--main-color-subtext);
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .landing-and {
-    color: var(--main-color-highlight);
-    // font-family: $font-title;
-    font-style: italic;
-    // font-size: 20px;
-    // font-weight: $weight-bold;
-  }
-}
-
 .content-section {
   display: flex;
   flex-direction: column;
