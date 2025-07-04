@@ -1,7 +1,7 @@
 // components/_sections.scss
 @use 'variables' as *;
 .section {
-    min-height: 100vh;
+    // min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,16 +87,6 @@
       flex-wrap: wrap;
       align-items: center;
 
-      // .title {
-      //   font-weight: $weight-normal;
-      //   font-family: $font-title;
-      // }
-
-      // .tools {
-      //   // font-style: italic;
-      //   color: var(--main-color-subtext);
-      //   font-size: 0.8rem;
-      // }
     }
   }
 }
@@ -170,4 +160,10 @@
   background-color: var(--main-color-highlight);
   margin: 32px auto; // 8pt grid (8 × 8)
   opacity: 0.3;
+}
+@media (max-width: 768px) {
+  .content-section .artwork {
+    height: 30vh;
+    min-height: 0;
+  }
 }

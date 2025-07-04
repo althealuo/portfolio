@@ -31,8 +31,8 @@ function Projects() {
     {
       title: "Photography",
       tools: "",
-      image: "/img/photo/nyc.jpg",
-      hoverImage: "/img/photo/nyc.jpg",
+      image: "/img/photo_paintings/nyc.jpg",
+      hoverImage: "/img/photo_paintings/nyc.jpg",
       hoverVideo: null,
       link: "photo.html",
     },
