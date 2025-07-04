@@ -16,7 +16,7 @@ function Projects() {
       title: "Wizard’s Table",
       tools: "Blender, Substance Painter, ZBrush",
       image: "/img/table/main.png",
-      hoverImage: null,
+      hoverImage: "/img/table/main.png",
       hoverVideo: null,
       link: "table.html",
     },
@@ -27,6 +27,14 @@ function Projects() {
       hoverImage: "/img/tavern_assets/main-wireframe.png",
       hoverVideo: null,
       link: "tavern.html",
+    },
+    {
+      title: "Photography",
+      tools: "",
+      image: "/img/photo/nyc.jpg",
+      hoverImage: "/img/photo/nyc.jpg",
+      hoverVideo: null,
+      link: "photo.html",
     },
   ];
 

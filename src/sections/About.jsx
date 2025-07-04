@@ -7,6 +7,9 @@ function About() {
   const story = `I’ve always liked psychology and art, and wanted to explore them through tech. 
 I started with HCI and worked as a software engineer. On the side, I learned VR and enjoyed the possibility of immersive expression.
 Now I'm back in school, researching in CogAI and NeuroAI.
+-
+
+In my free hours, I mostly zoom out, sometimes play the piano, paint and take photos. 
 `;
   return (
     <section className="about-section">
@@ -18,9 +21,6 @@ Now I'm back in school, researching in CogAI and NeuroAI.
 
         <div className="about-text MainColorText">
 
-          <p className="title">
-            my story
-          </p>
           {story.split("\n").map((line, i) => (
             <p key={i}>
               {line}
@@ -29,7 +29,7 @@ Now I'm back in school, researching in CogAI and NeuroAI.
           <Divider />
           
           <p className="title">
-            my current thoughts are on
+            current thoughts
           </p>
           <ul>
             <li>Modeling decision-making processes using ML approaches</li>
