@@ -63,3 +63,24 @@
     }
   }
 }
+.landing-subtext.typewriter {
+  font-family: $font-body;
+  font-size: 0.8rem;
+  color: var(--main-color-subtext);
+  letter-spacing: 0.1rem;
+  border-right: 2px solid var(--main-color-highlight);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink 0.75s step-end infinite;
+
+  &.done {
+    border-right: none;
+    animation: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
