@@ -12,26 +12,29 @@ function Landing() {
   useEffect(() => {
     let i = 0;
     const delay = 80;
+    const startTyping = setTimeout(() => {
+      const typeLine1 = setInterval(() => {
+        if (i < line1Full.length-1) {
+          setTypedLine1((prev) => prev + line1Full[i]);
+          i++;
+        } else {
+          clearInterval(typeLine1);
 
-    const typeLine1 = setInterval(() => {
-      if (i < line1Full.length-1) {
-        setTypedLine1((prev) => prev + line1Full[i]);
-        i++;
-      } else {
-        clearInterval(typeLine1);
+          let j = 0;
+          const typeLine2 = setInterval(() => {
+            if (j < line2Full.length-1) {
+              setTypedLine2((prev) => prev + line2Full[j]);
+              j++;
+            } else {
+              clearInterval(typeLine2);
+              setTypingDone(true); // 🔹 hide cursor when done
+            }
+          }, delay);
+        }
+      }, delay);
+    }, 1000); // delay before typing starts (1s for bar animation)
 
-        let j = 0;
-        const typeLine2 = setInterval(() => {
-          if (j < line2Full.length-1) {
-            setTypedLine2((prev) => prev + line2Full[j]);
-            j++;
-          } else {
-            clearInterval(typeLine2);
-            setTypingDone(true); // 🔹 hide cursor when done
-          }
-        }, delay);
-      }
-    }, delay);
+    return () => clearTimeout(startTyping);
 
     return () => {
       clearInterval(typeLine1);

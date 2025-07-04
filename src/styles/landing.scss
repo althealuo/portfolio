@@ -28,10 +28,12 @@
     }
 
     .title-underline {
-      margin-top: 1rem;
-      width: 5rem;
-      height: 0.4rem;
-      background-color: var(--main-color-highlight);
+        margin-top: 1rem;
+        width: 0;
+        height: 0.4rem;
+        background-color: var(--main-color-highlight);
+        animation: expand-bar 1s ease-out forwards;
+        animation-delay: 0.3s;
     }
   }
 
@@ -43,11 +45,12 @@
     gap: 0.5rem;
     margin-top: 60vh;
 
+
     .landing-divider {
-      width: 8rem;
-      height: 1px;
-      background-color: var(--main-color-subtext);
-      margin-bottom: 1rem;
+        width: 8rem;
+        height: 1px;
+        background-color: var(--main-color-subtext);
+        margin-bottom: 1rem;
     }
 
     .landing-subtext {
@@ -82,5 +85,14 @@
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+
+@keyframes expand-bar {
+  from {
+    width: 0;
+  }
+  to {
+    width: 5rem;
   }
 }
