@@ -15,6 +15,7 @@ In my free hours, I mostly zoom out, sometimes play the piano, paint and take ph
     <div className="about-image">
       <img src="/img/portrait-1.png" alt="Althea Portrait" className="portrait-img" />
       <p className="portrait-caption MainColorSubtext">My Portrait by Yuke</p>
+      <p className="portrait-caption MainColorSubtext">Oil on Canvas</p>
     </div>
 
     <div className="about-text">
