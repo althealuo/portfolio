@@ -6,8 +6,8 @@ function Featured() {
     {
       title: "Gyroscope",
       tools: "Blender, Substance Painter, ZBrush",
-      image: "/img/gyro/main.png",
-      hoverVideo: "/img/gyro/animation.mp4",
+      image: "/portfolio/img/gyro/main.png",
+      hoverVideo: "/portfolio/img/gyro/animation.mp4",
       hoverImage: null,
       link: "gyro.html",
     },
