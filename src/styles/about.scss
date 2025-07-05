@@ -1,4 +1,5 @@
 @use 'variables' as *;
+@use 'animations' as *;
 .about-section {
   display: flex;
   justify-content: center;
@@ -69,28 +70,6 @@
 }
 
 
-
-@keyframes fadeSlideUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeSlideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 .about-image {
   animation: fadeSlideDown 0.8s ease-out both;

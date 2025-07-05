@@ -14,7 +14,7 @@ function Featured() {
   ];
 
   return (
-    <section className="section content-section"  id="featured">
+    <section className="section content-section fade-slide-up"  id="featured">
       {projectList.map((proj) => (
         <ProjectCard key={proj.title} {...proj} />
       ))}

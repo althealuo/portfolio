@@ -1,0 +1,32 @@
+
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.fade-slide-up {
+  animation: fadeSlideUp 1s ease-out forwards;
+}
+
+.fade-slide-down {
+  animation: fadeSlideDown 1s ease-out forwards;
+}

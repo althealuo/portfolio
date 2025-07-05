@@ -3,3 +3,8 @@
 @use './utilities';
 @use './navbar';
 @use './sections';
+@use './landing';
+@use './about';
+@use './sidenav.scss';
+@use './footer';
+@use 'animations' as *;
