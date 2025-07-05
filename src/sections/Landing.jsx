@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "../styles/landing.scss";
 
 function Landing() {
-  const line1Full = "Understanding the mind with AI";
+  const line1Full = "  Understanding the mind with AI";
   const line2Full = " creating artistic worlds";
 
   const [typedLine1, setTypedLine1] = useState("");
