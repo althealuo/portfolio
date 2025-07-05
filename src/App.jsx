@@ -30,11 +30,11 @@ function App() {
           <Divider />
 
           <Projects />
-          <Divider />
+          {/* <Divider /> */}
         </div>
       )}
       {section === "about" && <About />}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
