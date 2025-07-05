@@ -13,6 +13,7 @@
       margin: 0 224px;
       padding-top: 36px;
       gap: 6rem;
+      align-items: center;
   }
 
   .about-image {
@@ -37,7 +38,7 @@
     display: flex;
     flex-direction: column;
     padding-right: 96px;
-    margin-top: 96px;
+    // margin-top: 96px;
 
     .section-block {
       margin-bottom: 2rem;
@@ -115,10 +116,13 @@
       padding-right: 0;
       margin-top: 0;
     }
-  }
-  .about-container {
-    flex-direction: column;
-    align-items: center;
+
+    
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 128px;
+    }
   }
 
 }
