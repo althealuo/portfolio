@@ -9,7 +9,7 @@ function Featured() {
       image: "/portfolio/img/gyro/main.png",
       hoverVideo: "/portfolio/img/gyro/animation.mp4",
       hoverImage: null,
-      link: "/portfolio/gyro",
+      link: "/gyro",
     },
   ];
 

@@ -18,7 +18,7 @@ function Projects() {
       image: "/portfolio/img/table/main.png",
       hoverImage: "/portfolio/img/table/main.png",
       hoverVideo: null,
-      link: "table.html",
+      link: "/coming-soon",
     },
     {
       title: "VR Tavern Assets",
@@ -26,7 +26,7 @@ function Projects() {
       image: "/portfolio/img/tavern_assets/main.png",
       hoverImage: "/portfolio/img/tavern_assets/main-wireframe.png",
       hoverVideo: null,
-      link: "tavern.html",
+      link: "/coming-soon",
     },
     {
       title: "Photography",
@@ -34,7 +34,7 @@ function Projects() {
       image: "/portfolio/img/photo_paintings/nyc.jpg",
       hoverImage: "/portfolio/img/photo_paintings/nyc.jpg",
       hoverVideo: null,
-      link: "photo.html",
+      link: "/coming-soon",
     },
   ];
 

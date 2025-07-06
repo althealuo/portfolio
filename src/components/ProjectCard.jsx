@@ -1,11 +1,11 @@
-// src/components/ProjectCard.jsx
+import { Link } from "react-router-dom";
 import FadeWrapper from "./FadeWrapper";
 import "../styles/sections.scss";
 
 function ProjectCard({ title, tools, image, hoverImage, hoverVideo, link }) {
   return (
     <div className="artwork">
-      <a href={link} className="project-link">
+      <Link to={link} className="project-link">
         <FadeWrapper
           defaultSrc={image}
           hoverImage={hoverImage}
@@ -16,7 +16,7 @@ function ProjectCard({ title, tools, image, hoverImage, hoverVideo, link }) {
           <span className="title MainColorText">{title}</span>
           <span className="tools MainColorSubtext">{tools}</span>
         </div>
-      </a>
+      </Link>
     </div>
   );
 }

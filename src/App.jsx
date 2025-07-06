@@ -1,43 +1,27 @@
-import { useState } from "react";
-import Nav from "./components/Nav";
-import SideNav from "./components/SideNav";
-import Divider from "./components/Divider";
-import Landing from "./sections/Landing";
-import Featured from "./sections/Featured";
-import Projects from "./sections/Projects";
-import About from "./sections/About";
-import MLProjects from "./sections/MLProjects";
-import Footer from "./sections/Footer";
-
-
+// src/App.jsx
+import { Routes, Route } from "react-router-dom";
+import PortfolioPage from "./pages/PortfolioPage";
+import AboutPage from "./pages/AboutPage";
+import ComingSoon from "./components/ComingSoon";
+import GyroPage from "./pages/GyroPage"; // if not ready, use ComingSoon for now
 import "./styles/main.scss";
-
 function App() {
-  const [section, setSection] = useState("portfolio");
-
   return (
-    <>
-      <Nav active={section} onNavigate={setSection} />
-
-      {section === "portfolio" && (
-        <div id="portfolio">
-          <Landing />
-          <SideNav /> 
-          <Featured /> 
-          <Divider />
-
-          <MLProjects />
-          <Divider />
-
-          <Projects />
-          {/* <Divider /> */}
-        </div>
-      )}
-      {section === "about" && <About />}
-      {/* <Footer /> */}
-    </>
+    <Routes>
+      <Route path="/" element={<PortfolioPage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/gyro" element={<GyroPage />} />
+      <Route
+        path="/coming-soon"
+        element={
+          <ComingSoon
+            projectName="This Project"
+            onBack={() => window.history.back()}
+          />
+        }
+      />
+    </Routes>
   );
 }
 
 export default App;
-
