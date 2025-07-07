@@ -9,13 +9,13 @@
 
   display: flex;
   justify-content: flex-start;
-  padding: 20px 30px;
+  padding: 16px 28px;
   background-color: var(--main-color-bg); // prevent transparency over content
 
   .nav-links {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 3rem;
 
     .nav-item {
       font-size: 1rem;
