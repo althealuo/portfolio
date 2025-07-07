@@ -2,16 +2,19 @@
 import "../styles/project-page.scss";
 
 
-function ProjectIntro({ image, title }) {
+function ProjectIntro({ image, title, tools }) {
   return (
     <div className="project-intro centered-layout">
         
-      <p className="intro-title">
-        {title}
-      </p>
       <div className="intro-image-wrapper">
         <img src={image} alt={title} />
       </div>
+      <p className="intro-title">
+        {title}
+      </p>
+      <p className="tools">
+        {tools}
+      </p>
     </div>
   );
 }
