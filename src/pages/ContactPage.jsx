@@ -13,10 +13,10 @@ function ContactPage() {
 
     emailjs
       .sendForm(
-        "your_service_id",    // ✏️ Replace this
-        "your_template_id",   // ✏️ Replace this
+        "service_uszszii",    // ✏️ Replace this
+        "template_vhfm1tb",   // ✏️ Replace this
         form.current,
-        "your_public_key"     // ✏️ Replace this
+        "mlGd5f3EYQwwa5DP4"     // ✏️ Replace this
       )
       .then(
         () => setSent(true),
