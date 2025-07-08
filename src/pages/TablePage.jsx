@@ -17,7 +17,7 @@ function TablePage() {
     // "/portfolio/img/table/detail1.png",
     "/portfolio/img/table/table-render1.png",
     "/portfolio/img/table/book2.png",
-    "/portfolio/img/table/table-render2.png",
+    // "/portfolio/img/table/table-render2.png",
     "/portfolio/img/table/axe.png",
     "/portfolio/img/table/axe_detail.png",
     "/portfolio/img/table/keys.png"
@@ -28,15 +28,14 @@ function TablePage() {
         <Nav />
         <ProjectIntro
         image="/portfolio/img/table/main.png"
-        title="Wizard’s Table"
+        title="Witch's Table"
         tools="Blender, Substance Painter, Zbrush"
         />
         <GalleryTextPair image="/portfolio/img/table/detail1.png">
-            <TextBlock label="overview" title="A learning project">
+            <TextBlock label="overview" title="It was a learning project,">
                 <p>
-                    I made this entire scene from scratch, which includes modeling, sculpting, texturing, 
-                    shading and rendering. It consists of more than 20 unique objects with texture variations. 
-                    I painted most of the textures myself using substance painter and procedural textures. 
+                    I used blender and substance painter to create what I imagined a witch's table would look like.
+                    And I used Zbrush to add sculpting details on the table and the axe.
                 </p>    
             </TextBlock>
 

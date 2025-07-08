@@ -13,7 +13,7 @@ function Projects() {
     //   link: "gyro.html",
     // },
     {
-      title: "Wizard’s Table",
+      title: "Witch's Table",
       tools: "Blender, Substance Painter, ZBrush",
       image: "/portfolio/img/table/main.png",
       hoverImage: "/portfolio/img/table/main.png",
