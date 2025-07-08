@@ -7,6 +7,7 @@ function Nav() {
   const navItems = [
     { label: "Portfolio", path: "/" },
     { label: "About", path: "/about" },
+    { label: "Contact", path: "/contact" },
   ];
   
   return (
