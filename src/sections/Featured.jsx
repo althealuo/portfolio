@@ -4,7 +4,7 @@ import "../styles/sections.scss";
 function Featured() {
   const projectList = [
     {
-      title: "Gyroscope",
+      title: "Cukoo Orrery",
       tools: "Blender, Substance Painter, ZBrush",
       image: "/portfolio/img/gyro/main.png",
       hoverVideo: "/portfolio/img/gyro/animation.mp4",

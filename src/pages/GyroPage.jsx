@@ -1,20 +1,40 @@
-import ComingSoon from "../components/ComingSoon";
 import Nav from "../components/Nav";
 import ProjectIntro from "../components/ProjectIntro";
+import GalleryColumn from "../components/GalleryColumn";
+import GalleryRow from "../components/GalleryRow";
+import { useEffect } from "react";
 
+
+const gyroImages = [
+    // "/portfolio/img/gyro/detail1.jpg",
+    "/portfolio/img/gyro/render9.png",
+    "/portfolio/img/gyro/render15.png",
+    "/portfolio/img/gyro/render13.png",
+    "/portfolio/img/gyro/render14.png",
+    "/portfolio/img/gyro/detail2.png",
+    "/portfolio/img/gyro/detail3.png",
+];
 function GyroPage() {
+
+  // scroll to top on page load
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
-      <Nav />
-      <ProjectIntro
+        <Nav />
+        <ProjectIntro
         image="/portfolio/img/gyro/detail1.jpg"
-        title="Gyroscope"
+        title="Cukoo Orrery"
         tools="Blender, Substance Painter, Zbrush"
-      />
-      {/* Gallery goes here next */}
-        {/* <ComingSoon
-            onBack={() => window.history.back()}
-        /> */}
+        />
+        {/* Gallery goes here next */}
+        <GalleryRow images={[
+            { src: "/portfolio/img/gyro/ideation.png", ratio: 1 },
+            { src: "/portfolio/img/gyro/blockout.png", ratio: 1 }
+        ]} />
+        <GalleryColumn images={gyroImages} />
     </>
   );
 }
