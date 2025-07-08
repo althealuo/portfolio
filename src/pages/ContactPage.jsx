@@ -12,11 +12,14 @@ function ContactPage() {
   e.preventDefault();
 
   emailjs
-    .sendForm(
+    .send(
       "service_uszszii",         // ✅ your real service ID
       "template_vhfm1tb",        // ✅ your real template ID
-      form.current,
-      "mlGd5f3EYQwwa5DP4"          // ✅ your public key
+        {
+            message: form.current.message.value,
+            email: form.current.email.value,
+        },
+      "rFmp9X77i0_etu46_"          // ✅ your public key
     )
     .then(
       () => {
@@ -27,8 +30,8 @@ function ContactPage() {
         setSent(false);
         setError(true);
       }
-    );
-};
+        );
+    };
 
   return (
     <>
