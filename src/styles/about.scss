@@ -43,29 +43,6 @@
     padding-right: 96px;
     // margin-top: 96px;
 
-    .section-block {
-      margin-bottom: 2rem;
-
-      h2 {
-        font-family: 'Spectral', serif;
-        font-size: 1.5rem;
-        margin-bottom: 1.2rem;
-        font-weight: $weight-normal;
-      }
-
-      .section-label {
-        color: var(--main-color-highlight);
-        font-size: 0.9rem;
-        font-family: 'Mukta', sans-serif;
-        margin-bottom: 0.5rem;
-      }
-
-      ul {
-        padding-left: 1.25rem;
-
-      }
-    }
-
   }
 }
 
@@ -79,16 +56,6 @@
   transform: translateY(20px);
   animation: fadeSlideUp 0.8s ease-out forwards;
 }
-
-.story-block {
-  animation-delay: 0.4s;
-}
-
-.thoughts-block {
-  animation-delay: 0.8s;
-}
-
-
 
 @media (max-width: 768px) {
   .about-section {

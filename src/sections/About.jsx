@@ -1,6 +1,7 @@
 import "../styles/about.scss";
 
 import Divider from "../components/Divider";
+import TextBlock from "../components/TextBlock";
 
 function About() {
 
@@ -18,26 +19,28 @@ In my free hours, I mostly zoom out, sometimes play the piano, paint and take ph
       <p className="portrait-caption MainColorSubtext">Oil on Canvas</p>
     </div>
 
+
     <div className="about-text">
-      <div className="section-block story-block">
+      {/* <div className="section-block story-block">
         <p className="section-label">my story</p>
         <h2>I’ve always liked psychology and art,</h2>
+
+      </div> */}
+
+        <TextBlock label="my story" title="I’ve always liked psychology and art," delay={0.2}>
           {story.split("\n").map((line, i) => (
             <p key={i}>
               {line}
             </p>
           ))}
-      </div>
+        </TextBlock>
 
-
-      <div className="section-block thoughts-block">
-        <p className="section-label">research</p>
-        <h2>My current thoughts are on</h2>
-        <ul>
-          <li>Modeling decision-making processes using ML approaches</li>
-          <li>Creating adaptive immersive VR worlds based on human data</li>
-        </ul>
-      </div>
+        <TextBlock label="research" title="My current thoughts are on" delay={0.6}>
+          <ul>
+            <li>Modeling decision-making processes using ML approaches</li>
+            <li>Creating adaptive immersive VR worlds based on human data</li>
+          </ul>
+        </TextBlock>
     </div>
   </div>
 </section>
