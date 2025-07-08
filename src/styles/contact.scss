@@ -76,6 +76,12 @@
     font-family: $font-body;
     font-size: 0.9rem;
   }
+  .error-msg {
+    margin-top: 0.5rem;
+    color: #d22525;
+    font-family: $font-body;
+    font-size: 0.9rem;
+}
 }}
 
 @media (max-width: 1024px) {

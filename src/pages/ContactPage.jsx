@@ -7,22 +7,28 @@ import "../styles/contact.scss";
 function ContactPage() {
   const form = useRef();
   const [sent, setSent] = useState(false);
-
+  const [error, setError] = useState(false);
   const sendEmail = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_uszszii",    // ✏️ Replace this
-        "template_vhfm1tb",   // ✏️ Replace this
-        form.current,
-        "mlGd5f3EYQwwa5DP4"     // ✏️ Replace this
-      )
-      .then(
-        () => setSent(true),
-        (error) => console.error("Email error:", error)
-      );
-  };
+  emailjs
+    .sendForm(
+      "service_uszszii",         // ✅ your real service ID
+      "your_template_id",        // ✅ your real template ID
+      form.current,
+      "your_public_key"          // ✅ your public key
+    )
+    .then(
+      () => {
+        setSent(true);
+        setError(false);
+      },
+      () => {
+        setSent(false);
+        setError(true);
+      }
+    );
+};
 
   return (
     <>
@@ -46,7 +52,15 @@ function ContactPage() {
                 <button type="submit" className="MainColorHighlight outline">Send</button>
             </div>
 
-          {sent && <p className="success-msg">Thanks! I’ll get back to you soon.</p>}
+            {sent && (
+                <p className="success-msg">Thanks! I’ll get back to you soon.</p>
+                )}
+                {error && (
+                <p className="error-msg">
+                    Oops, something went wrong — please try again or email me directly at <strong>althealyk@gmail.com</strong>.
+                </p>
+            )}
+
         </form>
       </div>
     </>
