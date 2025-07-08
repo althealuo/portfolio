@@ -18,7 +18,7 @@ function Projects() {
       image: "/portfolio/img/table/main.png",
       hoverImage: "/portfolio/img/table/main.png",
       hoverVideo: null,
-      link: "/coming-soon",
+      link: "/table",
     },
     {
       title: "VR Tavern Assets",

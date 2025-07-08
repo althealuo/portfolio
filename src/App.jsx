@@ -4,6 +4,7 @@ import PortfolioPage from "./pages/PortfolioPage";
 import AboutPage from "./pages/AboutPage";
 import ComingSoon from "./components/ComingSoon";
 import GyroPage from "./pages/GyroPage"; // if not ready, use ComingSoon for now
+import TablePage from "./pages/TablePage";
 import "./styles/main.scss";
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Route path="/" element={<PortfolioPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/gyro" element={<GyroPage />} />
+      <Route path="/table" element={<TablePage />} />
       <Route
         path="/coming-soon"
         element={
