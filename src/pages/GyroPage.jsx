@@ -2,6 +2,7 @@ import Nav from "../components/Nav";
 import ProjectIntro from "../components/ProjectIntro";
 import GalleryColumn from "../components/GalleryColumn";
 import GalleryRow from "../components/GalleryRow";
+import GalleryTextPair from "../components/GalleryTextPair";
 import { useEffect } from "react";
 
 
@@ -29,6 +30,17 @@ function GyroPage() {
         title="Cukoo Orrery"
         tools="Blender, Substance Painter, Zbrush"
         />
+        <GalleryTextPair video="/portfolio/img/gyro/animation.mp4">
+            <p>
+                This is an original design of an intricate artifact. 
+                I connected multiple design elements to create something that exists in a magical 
+                antique store.
+            </p>
+            <br />
+            <p>
+                It captures the infinite passage of time, with a cukoo bird trapped in it.
+            </p>
+        </GalleryTextPair>
         {/* Gallery goes here next */}
         <GalleryRow images={[
             { src: "/portfolio/img/gyro/ideation.png", ratio: 1 },
