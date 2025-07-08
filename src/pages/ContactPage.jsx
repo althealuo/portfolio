@@ -14,9 +14,9 @@ function ContactPage() {
   emailjs
     .sendForm(
       "service_uszszii",         // ✅ your real service ID
-      "your_template_id",        // ✅ your real template ID
+      "template_vhfm1tb",        // ✅ your real template ID
       form.current,
-      "your_public_key"          // ✅ your public key
+      "mlGd5f3EYQwwa5DP4"          // ✅ your public key
     )
     .then(
       () => {
