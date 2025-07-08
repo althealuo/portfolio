@@ -19,8 +19,15 @@
     font-family: $font-body;
     font-size: 1rem;
     color: var(--main-color-subtext);
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem;
   }
+}
+
+.back-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 
   button {
     font-family: $font-body;

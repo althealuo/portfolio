@@ -1,17 +1,11 @@
-import Nav from "../components/Nav";
-import ProjectIntro from "../components/ProjectIntro";
+
 import GalleryColumn from "../components/GalleryColumn";
 import GalleryRow from "../components/GalleryRow";
 import GalleryTextPair from "../components/GalleryTextPair";
 import TextBlock from "../components/TextBlock";
-import { useEffect } from "react";
-
+import ProjectBasePage from "../components/ProjectBasePage";
 function TablePage() {
     
-    // scroll to top on page load
-    useEffect(() => {
-    window.scrollTo(0, 0);
-    }, []);
 
   const images = [
     // "/portfolio/img/table/detail1.png",
@@ -25,23 +19,24 @@ function TablePage() {
 
   return (
     <>
-        <Nav />
-        <ProjectIntro
-        image="/portfolio/img/table/main.png"
-        title="Witch's Table"
-        tools="Blender, Substance Painter, Zbrush"
-        />
-        <GalleryTextPair image="/portfolio/img/table/detail1.png">
-            <TextBlock label="overview" title="It was a learning project,">
-                <p>
-                    I used blender and substance painter to create what I imagined a witch's table would look like.
-                    And I used Zbrush to add sculpting details on the table and the axe.
-                </p>    
-            </TextBlock>
+        <ProjectBasePage
+            image="/portfolio/img/table/main.png"
+            title="Witch's Table"
+            tools="Blender, Substance Painter, Zbrush"
+        >
+            <GalleryTextPair image="/portfolio/img/table/detail1.png">
+                <TextBlock label="overview" title="It was a learning project,">
+                    <p>
+                        I used blender and substance painter to create what I imagined a witch's table would look like.
+                        And I used Zbrush to add sculpting details on the table and the axe.
+                    </p>    
+                </TextBlock>
 
-        </GalleryTextPair>
+            </GalleryTextPair>
 
-        <GalleryColumn images={images} />
+            <GalleryColumn images={images} />
+        
+        </ProjectBasePage>
     </>
   );
 }

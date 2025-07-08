@@ -16,10 +16,7 @@ function App() {
       <Route
         path="/coming-soon"
         element={
-          <ComingSoon
-            projectName="This Project"
-            onBack={() => window.history.back()}
-          />
+          <ComingSoon />
         }
       />
     </Routes>

@@ -7,6 +7,7 @@ import MLProjects from "../sections/MLProjects";
 import Divider from "../components/Divider";
 
 import Nav from "../components/Nav";
+import Footer from "../sections/Footer";
 
 function PortfolioPage() {
   return (
@@ -21,7 +22,9 @@ function PortfolioPage() {
         <Divider />
         
         <Projects />
+        <Divider />
 
+        <Footer />
     </>
   );
 }

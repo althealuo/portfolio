@@ -1,13 +1,15 @@
 import "../styles/coming-soon.scss";
 import Nav from "../components/Nav";
+import BackButton from "../components/BackButton";
 
-function ComingSoon({ projectName, onBack }) {
+function ComingSoon() {
   return (
     <div className="coming-soon">
       <Nav />
       <h1>Coming Soon</h1>
       <p>This page is under construction.</p>
-      <button onClick={onBack} className="MainColorHighlight"> Back</button>
+
+      <BackButton />
     </div>
   );
 }
