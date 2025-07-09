@@ -29,7 +29,7 @@ function Projects() {
       link: "/table",
     },
     {
-      title: "Photography",
+      title: "Art Misc",
       tools: "",
       image: "/portfolio/img/photo_paintings/nyc.jpg",
       hoverImage: "/portfolio/img/photo_paintings/nyc.jpg",
