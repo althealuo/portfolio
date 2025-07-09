@@ -36,7 +36,7 @@ function TavernPage() {
             </TextBlock>
         </GalleryTextPair>
 
-        <GalleryTextPair image="/portfolio/img/tavern_assets/chair.png">
+        <GalleryTextPair image="/portfolio/img/tavern_assets/tables.png">
             <TextBlock label="realism fantasy" title="The study of wood">
                 <p>
                     Each furniture was modeled in blender, then sculpted in ZBrush for details 
@@ -46,48 +46,47 @@ function TavernPage() {
             </TextBlock>
         </GalleryTextPair>
         
-        <GalleryColumn images={[
+        {/* <GalleryColumn images={[
             "/portfolio/img/tavern_assets/bench.png",
             "/portfolio/img/tavern_assets/tables.png",
-        ]} />              
+        ]} />               */}
         <GalleryRow images={[
-            { src: "/portfolio/img/tavern_assets/shelf1.png", ratio: 2.5 },
+            { src: "/portfolio/img/tavern_assets/bench.png", ratio: 2.5 },
+            { src: "/portfolio/img/tavern_assets/chair.png", ratio: 1 },
+        ]} />
+        <GalleryRow images={[
             { src: "/portfolio/img/tavern_assets/shelf2.png", ratio: 1 },
+            { src: "/portfolio/img/tavern_assets/shelf1.png", ratio: 2.5 },
         ]} />
 
         <GalleryTextPair image="/portfolio/img/tavern_assets/bunny.png">
             <TextBlock label="selected works" title="Hand painted utensils">
                 <p>
-                    The normal details are sculpted with the high-poly mesh in Zbrush, then baked onto the low-poly mesh.
+                    The normal details are sculpted with the high-poly mesh in Zbrush, then baked onto the low-poly mesh in Painter.
                     The textures are hand-painted in Substance Painter, adding a unique touch to each piece.
                 </p>
             </TextBlock>
         </GalleryTextPair>
 
-        <GalleryRow images={[
-            { src: "/portfolio/img/tavern_assets/pot.PNG", ratio: 1 },
-            { src: "/portfolio/img/tavern_assets/ClayBottle.PNG", ratio: 0.5 },
-            { src: "/portfolio/img/tavern_assets/ClayFatJugBottle.PNG", ratio: 1.2 },
-            { src: "/portfolio/img/tavern_assets/Skillet.PNG", ratio: 1.5 },
-        ]} />
-        <GalleryRow images={[
+        {/* <GalleryRow images={[
             { src: "/portfolio/img/tavern_assets/teacupA.PNG", ratio: 1 },
             { src: "/portfolio/img/tavern_assets/Saucer.PNG", ratio: 1 },
             { src: "/portfolio/img/tavern_assets/teacupB_blue.PNG", ratio: 1 },
             { src: "/portfolio/img/tavern_assets/teacupB.PNG", ratio: 1 },
             { src: "/portfolio/img/tavern_assets/Saucer_blue.PNG", ratio: 1 },
-        ]} />
-        {/* <GalleryRow images={[
-            { src: "/portfolio/img/tavern_assets/Jug.PNG", ratio: 1 },
-            { src: "/portfolio/img/tavern_assets/ClayBottle.PNG", ratio: 0.5 },
-            { src: "/portfolio/img/tavern_assets/ClayVase.PNG", ratio: 1 },
         ]} /> */}
         <GalleryRow images={[
-            { src: "/portfolio/img/tavern_assets/bowl1.PNG", ratio: 1.5 },
+            { src: "/portfolio/img/tavern_assets/pot.PNG", ratio: 1 },
+            { src: "/portfolio/img/tavern_assets/ClayFatJugBottle.PNG", ratio: 1.25 },
+            { src: "/portfolio/img/tavern_assets/Skillet.PNG", ratio: 1.5 },
+            { src: "/portfolio/img/tavern_assets/ClayBottle.PNG", ratio: 0.5 },
+        ]} />
+        <GalleryRow images={[
             { src: "/portfolio/img/tavern_assets/Cauldron.PNG", ratio: 1.5 },
+            { src: "/portfolio/img/tavern_assets/bowl1.PNG", ratio: 1.5 },
             { src: "/portfolio/img/tavern_assets/JugFat2.PNG", ratio: 1 },
-            { src: "/portfolio/img/tavern_assets/Jug.PNG", ratio: 1 },
-            { src: "/portfolio/img/tavern_assets/ClayVase.PNG", ratio: 1 },
+            { src: "/portfolio/img/tavern_assets/ClayVase.PNG", ratio: 1.25 },
+            // { src: "/portfolio/img/tavern_assets/teacupA.PNG", ratio: 1.3 },
         ]} />
 
     </ProjectBasePage>
