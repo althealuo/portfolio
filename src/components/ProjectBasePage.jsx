@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import ProjectIntro from "./ProjectIntro";
 import BackButton from "./BackButton";
 import Footer from "../sections/Footer";
+import Divider from "./Divider";
 
 function ProjectBasePage({ title, image, tools, children }) {
   useEffect(() => {
@@ -16,6 +17,7 @@ function ProjectBasePage({ title, image, tools, children }) {
         <ProjectIntro image={image} title={title} tools={tools} />
         {children}
         <BackButton />
+        <Divider />
         <Footer />
     </>
   );
