@@ -7,25 +7,25 @@ import Divider from "../components/Divider";
 import ProjectBasePage from "../components/ProjectBasePage";    
 
 const gyroImages = [
-    // "/portfolio/img/gyro/detail1.jpg",
+    // "/img/gyro/detail1.jpg",
     
-    // "/portfolio/img/gyro/render15.png",
-    // "/portfolio/img/gyro/render13.png",
-    // "/portfolio/img/gyro/render14.png",
-    // "/portfolio/img/gyro/detail2.png",
-    "/portfolio/img/gyro/detail3.png",
+    // "/img/gyro/render15.png",
+    // "/img/gyro/render13.png",
+    // "/img/gyro/render14.png",
+    // "/img/gyro/detail2.png",
+    "/img/gyro/detail3.png",
 ];
 function GyroPage() {
 
   return (
     <>
         <ProjectBasePage
-            image="/portfolio/img/gyro/detail1.jpg"
+            image="/img/gyro/detail1.jpg"
             title="Cukoo Orrery"
             tools="Blender, Substance Painter, Zbrush"
         >
 
-            <GalleryTextPair video="/portfolio/img/gyro/animation.mp4">
+            <GalleryTextPair video="/img/gyro/animation.mp4">
                 <TextBlock label="overview" title="A captive to the infinite passage of time">
                     <p>
                         This is an original design of an intricate artifact. 
@@ -35,7 +35,7 @@ function GyroPage() {
                 </TextBlock>
 
             </GalleryTextPair>
-            <GalleryTextPair image="/portfolio/img/gyro/ideation.png" reverse>
+            <GalleryTextPair image="/img/gyro/ideation.png" reverse>
                 <TextBlock label="my process" title="I started with a simple sketch,">
                     <p>
                         then iterated on the blockout designs in Blender, 
@@ -45,14 +45,14 @@ function GyroPage() {
 
             </GalleryTextPair>
             <GalleryRow images={[
-                { src: "/portfolio/img/gyro/blockout.png", ratio: 1 },
-                { src: "/portfolio/img/gyro/render3.png", ratio: 1 }
+                { src: "/img/gyro/blockout.png", ratio: 1 },
+                { src: "/img/gyro/render3.png", ratio: 1 }
             ]} />
-            <GalleryColumn images={["/portfolio/img/gyro/render9.png"]} />
+            <GalleryColumn images={["/img/gyro/render9.png"]} />
             {/* <Divider /> */}
-            {/* <GalleryColumn images={["/portfolio/img/gyro/render15.png"]} /> */}
+            {/* <GalleryColumn images={["/img/gyro/render15.png"]} /> */}
             
-            <GalleryTextPair image="/portfolio/img/gyro/render15.png">
+            <GalleryTextPair image="/img/gyro/render15.png">
                 <TextBlock label="details" title="A miniature treehouse with cuckoo birds,">
                     <p>
                         
@@ -64,9 +64,9 @@ function GyroPage() {
 
             </GalleryTextPair>
             <GalleryRow images={[
-                { src: "/portfolio/img/gyro/render13.png", ratio: 1 },
-                { src: "/portfolio/img/gyro/render14.png", ratio: 1 },            
-                { src: "/portfolio/img/gyro/detail2.png", ratio: 1 }
+                { src: "/img/gyro/render13.png", ratio: 1 },
+                { src: "/img/gyro/render14.png", ratio: 1 },            
+                { src: "/img/gyro/detail2.png", ratio: 1 }
             ]} />
             <GalleryColumn images={gyroImages} />
         

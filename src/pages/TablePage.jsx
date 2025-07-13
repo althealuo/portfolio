@@ -8,23 +8,23 @@ function TablePage() {
     
 
   const images = [
-    // "/portfolio/img/table/detail1.png",
-    "/portfolio/img/table/table-render1.png",
-    "/portfolio/img/table/book2.png",
-    // "/portfolio/img/table/table-render2.png",
-    "/portfolio/img/table/axe.png",
-    "/portfolio/img/table/axe_detail.png",
-    "/portfolio/img/table/keys.png"
+    // "/img/table/detail1.png",
+    "/img/table/table-render1.png",
+    "/img/table/book2.png",
+    // "/img/table/table-render2.png",
+    "/img/table/axe.png",
+    "/img/table/axe_detail.png",
+    "/img/table/keys.png"
   ];
 
   return (
     <>
         <ProjectBasePage
-            image="/portfolio/img/table/main.png"
+            image="/img/table/main.png"
             title="Witch's Table"
             tools="Blender, Substance Painter, Zbrush"
         >
-            <GalleryTextPair image="/portfolio/img/table/detail1.png">
+            <GalleryTextPair image="/img/table/detail1.png">
                 <TextBlock label="overview" title="It was a learning project,">
                     <p>
                         I used blender and substance painter to create what I imagined a witch's table would look like.

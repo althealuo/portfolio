@@ -6,8 +6,8 @@ function Featured() {
     {
       title: "Cukoo Orrery",
       tools: "Blender, Substance Painter, ZBrush",
-      image: "/portfolio/img/gyro/main.png",
-      hoverVideo: "/portfolio/img/gyro/animation.mp4",
+      image: "/img/gyro/main.png",
+      hoverVideo: "/img/gyro/animation.mp4",
       hoverImage: null,
       link: "/gyro",
     },
