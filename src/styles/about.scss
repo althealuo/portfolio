@@ -15,6 +15,7 @@
       padding-top: 36px;
       gap: 6rem;
       align-items: center;
+      justify-content: center;
   }
 
   .about-image {
@@ -40,8 +41,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding-right: 96px;
-    // margin-top: 96px;
+    max-width: 44rem;
 
   }
 }
