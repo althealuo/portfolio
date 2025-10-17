@@ -48,7 +48,8 @@ function Landing() {
         <div className="landing-bg">
 
           <img
-            src="/img/self-portrait.PNG"
+            // src="/img/self-portrait-0.png"
+            src="/img/self-portrait-1.PNG"
             alt="Self portrait"
           />
         </div>
