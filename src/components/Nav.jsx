@@ -5,9 +5,9 @@ import "../styles/navbar.scss";
 function Nav() {
   const location = useLocation();
   const navItems = [
-    { label: "Portfolio", path: "/" },
-    { label: "About", path: "/about" },
-    { label: "Contact", path: "/contact" },
+    { label: "PORTFOLIO", path: "/" },
+    { label: "ABOUT", path: "/about" },
+    { label: "CONTACT", path: "/contact" },
   ];
   
   return (
