@@ -4,14 +4,14 @@ import "../styles/sections.scss";
 
 function Projects() {
   const projectList = [
-    // {
-    //   title: "Gyroscope",
-    //   tools: "Blender, Substance Painter, ZBrush",
-    //   image: "/img/gyro/main.png",
-    //   hoverVideo: "/img/gyro/animation.mp4",
-    //   hoverImage: null,
-    //   link: "gyro.html",
-    // },
+  {
+      title: "Cukoo Orrery",
+      tools: "Blender, Substance Painter, ZBrush",
+      image: "/img/gyro/main.png",
+      hoverVideo: "/img/gyro/animation.mp4",
+      hoverImage: null,
+      link: "/gyro",
+    },
     {
       title: "VR Tavern Assets",
       tools: "Blender, Substance Painter, Substance Designer, ZBrush",

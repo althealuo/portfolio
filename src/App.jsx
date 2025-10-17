@@ -7,6 +7,7 @@ import GyroPage from "./pages/GyroPage"; // if not ready, use ComingSoon for now
 import TablePage from "./pages/TablePage";
 import ContactPage from "./pages/ContactPage";
 import TavernPage from "./pages/TavernPage";
+import AvrPage from "./pages/AvrPage";
 // Importing styles
 import "./styles/main.scss";
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/coming-soon" element={<ComingSoon />} />
       
+      <Route path="/avr" element={<AvrPage />} />
       <Route path="/gyro" element={<GyroPage />} />
       <Route path="/table" element={<TablePage />} />
       <Route path="/tavern" element={<TavernPage />} />

@@ -3,13 +3,22 @@ import "../styles/sections.scss";
 
 function Featured() {
   const projectList = [
+    // {
+    //   title: "Cukoo Orrery",
+    //   tools: "Blender, Substance Painter, ZBrush",
+    //   image: "/img/gyro/main.png",
+    //   hoverVideo: "/img/gyro/animation.mp4",
+    //   hoverImage: null,
+    //   link: "/gyro",
+    // },
+
     {
-      title: "Cukoo Orrery",
-      tools: "Blender, Substance Painter, ZBrush",
+      title: "Adaptive VR based on Biosignals",
+      tools: "Unity, Blender, Substance Painter, ZBrush",
       image: "/img/gyro/main.png",
       hoverVideo: "/img/gyro/animation.mp4",
       hoverImage: null,
-      link: "/gyro",
+      link: "/avr",
     },
   ];
 
