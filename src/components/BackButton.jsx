@@ -11,9 +11,9 @@ function BackButton({ onClick }) {
   };
 
   return (
-    <div className="back-button-container">
+    <div className="button-container">
         <button onClick={handleClick} className="MainColorHighlight">
-        Back
+        BACK
         </button>
     </div>
   );

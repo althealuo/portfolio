@@ -5,6 +5,7 @@ import GalleryTextPair from "../components/GalleryTextPair";
 import TextBlock from "../components/TextBlock";
 import Divider from "../components/Divider";
 import ProjectBasePage from "../components/ProjectBasePage";    
+import ModelViewer from '../components/ModelViewer'
 
 const gyroImages = [
     // "/img/gyro/detail1.jpg",
@@ -20,21 +21,21 @@ function AvrPage() {
   return (
     <>
         <ProjectBasePage
-            image="/img/gyro/detail1.jpg"
+            image="/img/avr/avr-cover.PNG"
             title="Adaptive VR based on Biosignals"
             tools="Unity, Blender, Substance Painter, Zbrush"
         >
 
-            <GalleryTextPair video="/img/gyro/animation.mp4">
-                <TextBlock label="overview" title="A captive to the infinite passage of time">
+            <GalleryTextPair video="/img/avr/avr-cover.PNG">
+                <TextBlock label="Overview" title="Your emotions change the world">
                     <p>
-                        This is an original design of an intricate artifact. 
-                        I connected ideas from cuckoo clocks and orreries to create something that exists in a magical 
-                        antique store.
+                        The core idea of the project explores how to understand the users' state of emotions through physiological data.
+                        And based on this understanding, making a world that guides to mitigate stress and anxiety.
                     </p>    
                 </TextBlock>
 
             </GalleryTextPair>
+            <ModelViewer modelPath="/img/avr/fish_model11_blue.glb" />
             <GalleryTextPair image="/img/gyro/ideation.png" reverse>
                 <TextBlock label="my process" title="I started with a simple sketch,">
                     <p>

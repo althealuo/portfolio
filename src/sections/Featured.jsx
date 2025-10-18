@@ -15,9 +15,9 @@ function Featured() {
     {
       title: "Adaptive VR based on Biosignals",
       tools: "Unity, Blender, Substance Painter, ZBrush",
-      image: "/img/gyro/main.png",
-      hoverVideo: "/img/gyro/animation.mp4",
-      hoverImage: null,
+      image: "/img/avr/avr-cover.PNG",
+      // hoverVideo: "/img/avr/avr-video.mp4",
+      hoverImage: "/img/avr/avr-cover.PNG",
       link: "/avr",
     },
   ];
