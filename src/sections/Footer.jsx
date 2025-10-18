@@ -3,7 +3,7 @@
 function Footer() {
   return (
     <footer className="footer">
-      <p className="footer-text MainColorSubtext">
+      <p className="footer-text">
         © {new Date().getFullYear()} Designed & Made by Althea
       </p>
     </footer>

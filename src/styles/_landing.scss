@@ -1,4 +1,4 @@
-@use "variables" as *;
+@use './global' as *;
 
 .landing {
   display: flex;
@@ -49,7 +49,7 @@
       font-family: $font-title;    
       font-size: 2rem;
       // letter-spacing: 1.5rem;
-      color: var(--main-color-highlight);
+      color: $color-highlight;
       margin: 0;
     }
   }
@@ -90,7 +90,7 @@
   //       margin-top: 1rem;
   //       width: 0;
   //       height: 0.4rem;
-  //       background-color: var(--main-color-highlight);
+  //       background-color: $color-highlight;
   //       animation: expand-bar 1s ease-out forwards;
   //       animation-delay: 0.3s;
   //   }
@@ -108,18 +108,18 @@
   //   .landing-divider {
   //       width: 8rem;
   //       height: 1px;
-  //       background-color: var(--main-color-subtext);
+  //       background-color: $color-bg;
   //       margin-bottom: 1rem;
   //   }
 
   //   .landing-subtext {
   //     font-family: $font-body;
   //     font-size: 0.8rem;
-  //     color: var(--main-color-subtext);
+  //     color: $color-bg;
   //     letter-spacing: 0.1rem;
 
   //     &.highlight {
-  //       color: var(--main-color-highlight);
+  //       color: $color-highlight;
   //       // font-style: italic;
   //     }
   //   }
@@ -128,9 +128,9 @@
 .landing-subtext.typewriter {
   font-family: $font-body;
   font-size: 0.8rem;
-  color: var(--main-color-subtext);
+  color: $color-bg;
   letter-spacing: 0.1rem;
-  border-right: 2px solid var(--main-color-highlight);
+  border-right: 2px solid $color-highlight;
   white-space: nowrap;
   overflow: hidden;
   animation: blink 0.75s step-end infinite;

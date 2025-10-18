@@ -1,4 +1,4 @@
-@use "variables" as *;
+@use './global' as *;
 
 .coming-soon {
   display: flex;
@@ -11,14 +11,14 @@
   h1 {
     font-family: $font-title;
     font-size: 2rem;
-    color: var(--main-color-text);
+    color: $color-text;
     font-weight: $weight-normal;
   }
 
   p {
     font-family: $font-body;
     font-size: 1rem;
-    color: var(--main-color-subtext);
+    color: $color-subtext;
     // margin-bottom: 1rem;
   }
 }
@@ -28,20 +28,21 @@
   justify-content: center;
   margin-bottom: 2rem;
   margin-top: 1rem;
+  color: $color-highlight;
 
   button {
     font-family: $font-body;
     font-size: .85rem;
     padding: 0.1rem 1.5rem;
-    border: 1px solid var(--main-color-highlight);
+    border: 1px solid $color-highlight;
     background-color: transparent;
-    color: var(--main-color-highlight);
+    color: $color-highlight;
     border-radius: 2rem;
     cursor: pointer;
     transition: background-color 0.2s ease, color 0.2s ease;
 
     &:hover {
-      background-color: var(--main-color-highlight);
+      background-color: $color-highlight;
       color: white;
     }
   }

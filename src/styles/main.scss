@@ -1,11 +1,8 @@
 // --------------------
 // CORE SYSTEM
 // --------------------
-@use './variables' as *;
-@use './mixins';
+@use './global' as *;
 @use './base';
-@use './utilities';
-@use './animations';
 
 // --------------------
 // GLOBAL COMPONENTS

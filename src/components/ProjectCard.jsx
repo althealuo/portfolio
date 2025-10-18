@@ -13,8 +13,8 @@ function ProjectCard({ title, tools, image, hoverImage, hoverVideo, link ="/comi
           alt={title}
         />
         <div className="caption">
-          <span className="title MainColorText">{title}</span>
-          <span className="tools MainColorSubtext">{tools}</span>
+          <span className="title">{title}</span>
+          <span className="tools">{tools}</span>
         </div>
       </Link>
     </div>

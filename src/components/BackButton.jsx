@@ -12,7 +12,7 @@ function BackButton({ onClick }) {
 
   return (
     <div className="button-container">
-        <button onClick={handleClick} className="MainColorHighlight">
+        <button onClick={handleClick}>
         BACK
         </button>
     </div>

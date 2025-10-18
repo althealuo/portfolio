@@ -1,4 +1,4 @@
-@use "variables" as *;
+@use './global' as *;
 
 .contact-page {
     display: flex;
@@ -56,15 +56,15 @@
         font-family: $font-body;
         font-size: 1rem;
         padding: 0.2rem 2rem;
-        border: 1px solid var(--main-color-highlight);
+        border: 1px solid $color-highlight;
         background-color: transparent;
-        color: var(--main-color-highlight);
+        color: $color-highlight;
         border-radius: 2rem;
         cursor: pointer;
         transition: background-color 0.2s ease, color 0.2s ease;
 
         &:hover {
-        background-color: var(--main-color-highlight);
+        background-color: $color-highlight;
         color: white;
         }
     }

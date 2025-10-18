@@ -1,4 +1,4 @@
-/* base.scss */
+@use './global' as *;
 
 *,
 *::before,
@@ -15,8 +15,8 @@
 
 body {
   font-family: 'Mukta', sans-serif;
-  background-color: var(--main-color-bg);
-  color: var(--main-color-text);
+  background-color: $color-bg;
+  color: $color-text;
   line-height: 1.6;
 }
 html {

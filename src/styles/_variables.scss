@@ -6,6 +6,14 @@
   // --main-color-highlight: #BC777A;
   --main-color-highlight: #d05156;
 }
+
+// Colors
+$color-bg: #FBFBFB;
+$color-text: #272727;
+$color-subtext: #767676;
+$color-highlight: #d05156;
+
+
 // Font variables
 $font-title: 'Spectral', serif;
 $font-body: 'Mukta', sans-serif;
@@ -13,3 +21,7 @@ $font-body: 'Mukta', sans-serif;
 // Font weight
 $weight-normal: 400;
 $weight-bold: 600;
+
+
+// Border radius
+$radius: 8px;

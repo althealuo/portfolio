@@ -1,4 +1,4 @@
-@use 'variables' as *;
+@use './global' as *;
 
 .side-nav {
   position: fixed;
@@ -23,7 +23,7 @@
       a {
         font-size: 14px;
         font-family: $font-body;
-        color: var(--main-color-subtext);
+        color: $color-bg;
         text-decoration: none;
         transition: color 0.3s, 
         transform 0.3s;
@@ -31,7 +31,7 @@
         padding: 40px 10px 40px 20px;
 
         &:hover {
-          color: var(--main-color-highlight);
+          color: $color-highlight;
         }
 
         span {

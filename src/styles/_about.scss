@@ -1,5 +1,5 @@
-@use 'variables' as *;
-@use 'animations' as *;
+@use './global' as *;
+
 .about-section {
   display: flex;
   justify-content: center;

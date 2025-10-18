@@ -1,5 +1,5 @@
 // components/_sections.scss
-@use 'variables' as *;
+@use './global' as *;
 .section {
     // min-height: 100vh;
     display: flex;
@@ -98,17 +98,18 @@
   font-size: 1.25rem;  
   transition: color 0.3s ease;
   margin-bottom: 0.5rem;
+  color: $color-text;
 
 }
 .artwork:hover .title {
-  color: var(--main-color-highlight);
+  color: $color-highlight;
 }
 .ml-card:hover .title {
-  color: var(--main-color-highlight);
+  color: $color-highlight;
 }
 .tools {
   font-weight: $weight-normal;
-  color: var(--main-color-subtext);
+  color: $color-subtext;
   font-size: 0.8rem;
 }
 
@@ -146,19 +147,19 @@
   font-size: 20px;
   font-weight: $weight-normal;
   margin-bottom: 8px;
-  color: var(--main-color-text);
+  color: $color-text;
 }
 
 .ml-subtitle {
   font-family: $font-body;
   font-size: 16px;
-  color: var(--main-color-subtext);
+  color: $color-subtext;
 }
 
 .section-divider {
   width: 256px;
   height: 1px;
-  background-color: var(--main-color-highlight);
+  background-color: $color-highlight;
   margin: 32px auto; // 8pt grid (8 × 8)
   opacity: 0.3;
 }
