@@ -1,5 +1,5 @@
 // src/components/SideNav.jsx
-import "../styles/sidenav.scss";
+// import "../styles/sidenav.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 

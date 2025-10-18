@@ -1,5 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
-import "../styles/sections.scss";
+// import "../styles/sections.scss";
 
 function Featured() {
   const projectList = [

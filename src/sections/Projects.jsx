@@ -1,6 +1,6 @@
 // src/sections/Projects.jsx
 import ProjectCard from "../components/ProjectCard";
-import "../styles/sections.scss";
+// import "../styles/sections.scss";
 
 function Projects() {
   const projectList = [

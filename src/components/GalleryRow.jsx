@@ -1,5 +1,5 @@
 // src/components/GalleryRow.jsx
-import "../styles/gallery.scss";
+// import "../styles/gallery.scss";
 
 function GalleryRow({ images = [] }) {
   const totalRatio = images.reduce((sum, img) => sum + (img.ratio || 1), 0);

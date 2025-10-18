@@ -1,5 +1,5 @@
 // src/components/ProjectIntro.jsx
-import "../styles/project-page.scss";
+// import "../styles/project-page.scss";
 
 
 function ProjectIntro({ image, title, tools }) {

@@ -1,4 +1,4 @@
-import "../styles/coming-soon.scss";
+// import "../styles/coming-soon.scss";
 import Nav from "../components/Nav";
 import BackButton from "../components/BackButton";
 

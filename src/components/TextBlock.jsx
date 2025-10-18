@@ -1,5 +1,5 @@
 // src/components/TextBlock.jsx
-import "../styles/gallery.scss";
+// import "../styles/gallery.scss";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 

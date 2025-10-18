@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../styles/landing.scss";
+// import "../styles/landing.scss";
 
 function Landing() {
   // const line1Full = "  Understanding the mind with AI";

@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Nav from "../components/Nav";
 import TextBlock from "../components/TextBlock";
-import "../styles/contact.scss";
+// import "../styles/contact.scss";
 
 function ContactPage() {
   const form = useRef();

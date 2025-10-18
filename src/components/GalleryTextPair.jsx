@@ -1,5 +1,5 @@
 // src/components/GalleryTextPair.jsx
-import "../styles/gallery.scss";
+// import "../styles/gallery.scss";
 
 function GalleryTextPair({ image, video, children, reverse = false }) {
   return (

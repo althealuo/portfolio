@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect, Suspense } from 'react'
 import * as THREE from 'three'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, useGLTF, Environment, Html } from '@react-three/drei'
-import '../styles/gallery.scss' // 👈 make sure the path is correct
+// import '../styles/gallery.scss' 
 
 function Model({ url, isPlaying, setHasAnimation }) {
   const group = useRef()

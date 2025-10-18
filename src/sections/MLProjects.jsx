@@ -1,5 +1,5 @@
 import MLProjectCard from "../components/MLProjectCard";
-import "../styles/sections.scss";
+// import "../styles/sections.scss";
 
 function MLProjects() {
   const mlProjects = [

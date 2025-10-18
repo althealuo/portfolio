@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import FadeWrapper from "./FadeWrapper";
-import "../styles/sections.scss";
+// import "../styles/sections.scss";
 
 function ProjectCard({ title, tools, image, hoverImage, hoverVideo, link ="/coming-soon" }) {
   return (

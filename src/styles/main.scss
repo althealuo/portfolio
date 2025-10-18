@@ -1,10 +1,26 @@
+// --------------------
+// CORE SYSTEM
+// --------------------
 @use './variables' as *;
+@use './mixins';
 @use './base';
 @use './utilities';
+@use './animations';
+
+// --------------------
+// GLOBAL COMPONENTS
+// --------------------
 @use './navbar';
+@use './sidenav';
+@use './footer';
+@use './gallery';
+
+// --------------------
+// PAGE / SECTION STYLES
+// --------------------
 @use './sections';
 @use './landing';
 @use './about';
-@use './sidenav.scss';
-@use './footer';
-@use 'animations' as *;
+@use './contact';
+@use './coming-soon';
+@use './project-page';

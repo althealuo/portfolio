@@ -1,4 +1,4 @@
-import "../styles/about.scss";
+// import "../styles/about.scss";
 
 import Divider from "../components/Divider";
 import TextBlock from "../components/TextBlock";

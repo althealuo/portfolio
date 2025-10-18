@@ -1,5 +1,5 @@
 // src/components/GalleryColumn.jsx
-import "../styles/gallery.scss";
+// import "../styles/gallery.scss";
 
 function GalleryColumn({ images = [] }) {
   return (

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import "../styles/sections.scss";
+// import "../styles/sections.scss";
 
 function FadeWrapper({ defaultSrc, hoverImage, hoverVideo, alt }) {
   const videoRef = useRef(null);

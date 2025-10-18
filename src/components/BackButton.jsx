@@ -1,5 +1,5 @@
 // src/components/BackButton.jsx
-import "../styles/coming-soon.scss";
+// import "../styles/coming-soon.scss";
 
 function BackButton({ onClick }) {
   const handleClick = () => {

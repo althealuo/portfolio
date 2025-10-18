@@ -1,4 +1,4 @@
-import "../styles/sections.scss";
+// import "../styles/sections.scss";
 
 function Divider() {
   return <div className="section-divider" />;

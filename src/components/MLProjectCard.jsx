@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/sections.scss";
+// import "../styles/sections.scss";
 
 function MLProjectCard({ title, subtitle, link = "/coming-soon" }) {
   return (
