@@ -52,7 +52,7 @@ function ContactPage() {
           <textarea name="message" placeholder="hello ..." rows={8} required />
             <div className="form-row">
                 <input type="email" name="email" placeholder="your@email.com" required />
-                <button type="submit">Send</button>
+                <button type="submit">SEND</button>
             </div>
 
             {sent && (
