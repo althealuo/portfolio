@@ -26,51 +26,54 @@ function AvrPage() {
             tools="Unity, Blender, Substance Painter, Zbrush"
         >
 
-            <GalleryTextPair video="/img/avr/avr-cover.PNG">
+            {/* <GalleryColumn images={["/img/avr/core-process.png"]} /> */}
+            <GalleryTextPair image="/img/avr/avr-cover.PNG">
                 <TextBlock label="Overview" title="Your emotions change the world">
                     <p>
                         The core idea of the project explores how to understand the users' state of emotions through physiological data.
-                        And based on this understanding, making a world that guides to mitigate stress and anxiety.
+                        And based on this understanding, making a world that guides through stress and anxiety.
                     </p>    
+                    <br/>
+                    <div>
+                        <img src="/img/avr/core-process.png" alt="core process" className="width-large"/>
+                    </div>
+                    <br/>
+                    
+                    <label>Goal 1: Mental Health Mitigation</label>
+                    <p>
+
+                    </p>
+                    <br/>
+                    <label>Goal 2: Explore Artistic Potential in VR</label>
+                    <p>
+
+                    </p>
                 </TextBlock>
 
             </GalleryTextPair>
-            <ModelViewer modelPath="/img/avr/fish_model11_blue.glb" />
+
+            <Divider />
+
+            {/* <ModelViewer modelPath="/img/avr/fish_model11_blue.glb" rotation={[0, -Math.PI / 2, 0]} /> */}
             <GalleryTextPair image="/img/gyro/ideation.png" reverse>
-                <TextBlock label="my process" title="I started with a simple sketch,">
+                <TextBlock label="Artistic Exploration" title="Blender Modeling">
                     <p>
-                        then iterated on the blockout designs in Blender, 
-                        first with shapes and the overall compositions, then with colors and textures.
-                    </p>    
+                        I first looked up fish references and modeled it in Blender as my base model. 
+                        And I want to capture the shape using the minimum amount of polyons for optimized performance in VR, and obsviously it looks very coarse.
+                    </p>
+                    <br/>
+                    <p>
+                        To create an illusion of smoothness, I applied shape smooth in Blender, and created a high-poly version using subdivision surfaces. Then I baked the low-poly base model with the high-poly version in Substance Painter.
+                    </p>
                 </TextBlock>
 
             </GalleryTextPair>
             <GalleryRow images={[
-                { src: "/img/gyro/blockout.png", ratio: 1 },
-                { src: "/img/gyro/render3.png", ratio: 1 }
+                { src: "/img/avr/fish_model11_blue.glb", ratio: 1, rotation: [0, -Math.PI / 2, 0] },
+                { src: "/img/avr/fish_model11_red.glb", ratio: 1, rotation: [0, -Math.PI / 2, 0] }
             ]} />
-            <GalleryColumn images={["/img/gyro/render9.png"]} />
-            {/* <Divider /> */}
-            {/* <GalleryColumn images={["/img/gyro/render15.png"]} /> */}
-            
-            <GalleryTextPair image="/img/gyro/render15.png">
-                <TextBlock label="details" title="A miniature treehouse with cuckoo birds,">
-                    <p>
-                        
-                        The middle section forms an abstract tree with trunk, branches, and leaves. 
-                        The top is an orrery with a crescent moon, 
-                        symbolizing the passage of time and the movement of the stars.
-                    </p>    
-                </TextBlock>
 
-            </GalleryTextPair>
-            <GalleryRow images={[
-                { src: "/img/gyro/render13.png", ratio: 1 },
-                { src: "/img/gyro/render14.png", ratio: 1 },            
-                { src: "/img/gyro/detail2.png", ratio: 1 }
-            ]} />
-            <GalleryColumn images={gyroImages} />
-        
+
         </ProjectBasePage>
     </>
   );

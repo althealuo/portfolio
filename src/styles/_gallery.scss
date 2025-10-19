@@ -13,7 +13,7 @@
     height: auto;
     object-fit: cover;
     
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   }
 }
 
@@ -36,7 +36,7 @@
     object-fit: cover;
     
     background-color: #eee;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    // box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     width: 100%;
   }
 
@@ -92,21 +92,6 @@
 
 .section-block {
   margin-bottom: 2rem;
-
-  h2 {
-    font-family: $font-title;
-    font-size: 1.5rem;
-    margin-bottom: 1.2rem;
-    font-weight: $weight-normal;
-  }
-
-  .section-label {
-    color: $color-highlight;
-    font-size: 0.9rem;
-    font-family: $font-body;
-    margin-bottom: 0.5rem;
-  }
-
   ul {
     padding-left: 1.25rem;
   }
@@ -117,37 +102,14 @@
 // -----------------------------------------------------------
 
 .model-viewer {
-  width: 70%;
-  height: 500px;
-  margin: 0 auto 2rem auto;
-  position: relative;
+  display: flex;;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-bg;
 
   canvas {
-    background: #fbfbfb;
-    border-radius: 12px;
-  }
-
-  .animation-toggle {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    padding: 0.6rem 1rem;
-    background: #ff4a4a;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 600;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    transition: background 0.25s ease, transform 0.2s ease;
-
-    &:hover {
-      transform: translateY(-2px);
-    }
-
-    &:active {
-      transform: translateY(0);
-    }
+    flex: 1;
+    background-color: transparent;
   }
 }
 
@@ -159,7 +121,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #767676;
+  color: $color-text;
 
   // p {
   //   margin-top: 0.5rem;
@@ -169,7 +131,7 @@
   .model-spinner {
     width: 30px;
     height: 30px;
-    border: 3px solid #ff4a4a;
+    border: 3px solid $color-subtext;
     border-top: 3px solid transparent;
     border-radius: 50%;
     animation: spin 1s linear infinite;

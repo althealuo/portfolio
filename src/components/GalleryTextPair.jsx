@@ -1,11 +1,13 @@
 // src/components/GalleryTextPair.jsx
-// import "../styles/gallery.scss";
+import ModelViewer from './ModelViewer'
 
-function GalleryTextPair({ image, video, children, reverse = false }) {
+function GalleryTextPair({ image, video, model, children, reverse = false, rotation = [0, 0, 0] }) {
   return (
     <div className={`gallery-text-pair ${reverse ? "reverse" : ""}`}>
       <div className="gallery-text-pair-visual">
-        {video ? (
+        {model ? (
+          <ModelViewer modelPath={model} rotation={rotation} />
+        ) : video ? (
           <video
             src={video}
             autoPlay
@@ -22,7 +24,7 @@ function GalleryTextPair({ image, video, children, reverse = false }) {
         {children}
       </div>
     </div>
-  );
+  )
 }
 
-export default GalleryTextPair;
+export default GalleryTextPair

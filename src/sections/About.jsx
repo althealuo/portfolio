@@ -19,11 +19,6 @@ In my free hours, I mostly zoom out, sometimes play the piano, paint and take ph
 
 
     <div className="about-text">
-      {/* <div className="section-block story-block">
-        <p className="section-label">my story</p>
-        <h2>I’ve always liked psychology and art,</h2>
-
-      </div> */}
 
         <TextBlock label="my story" title="I’ve always liked psychology and art," delay={0.2}>
           {story.split("\n").map((line, i) => (

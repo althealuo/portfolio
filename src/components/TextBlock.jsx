@@ -15,7 +15,7 @@ function TextBlock({ label, title, children, delay = 0 }) {
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, ease: "easeOut", delay }}
     >
-      {label && <p className="section-label">{label}</p>}
+      {label && <label>{label}</label>}
       {title && <h2>{title}</h2>}
       {children}
     </motion.div>
