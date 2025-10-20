@@ -47,6 +47,12 @@
 }
 
 
+.exp-list {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: row;
+}
 
 .about-image {
   animation: fadeSlideDown 0.8s ease-out both;
@@ -74,3 +80,4 @@
   }
 
 }
+

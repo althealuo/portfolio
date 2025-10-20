@@ -36,6 +36,11 @@ h2 {
     margin-bottom: 1.2rem;
     font-weight: $weight-normal;
 }
+h3 {
+    font-family: $font-title;
+    font-size: 1.2rem;
+    font-weight: $weight-normal;
+}
 
 // img {
 //     width: 100%;
@@ -44,4 +49,11 @@ h2 {
 
 .width-large {
     width: 88%;
+}
+
+
+.sub-text {
+    font-family: $font-body;
+    font-size: 0.85rem;
+    color: $color-subtext;
 }

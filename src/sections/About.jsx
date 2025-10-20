@@ -26,14 +26,42 @@ In my free hours, I mostly zoom out, sometimes play the piano, paint and take ph
           <p>and wanted to explore them through tech. I started with a focus in HCI and worked as a software engineer. On the side, I learned VR and enjoyed the possibility of immersive expression. 
             </p>
           <p>Now I'm back in school, researching in Cognitive AI and creative expressions in VR.</p>
-          <br/>
+          {/* <br/> */}
           <p>In my free hours, I mostly zoom out, sometimes play the piano, paint and take photos.</p>
           <br/>
-          <label>education & experience</label>
+          <label>details</label>
+            <div className="exp-list">
+              <h3>MSCS (AI)</h3>
+              <p className="sub-text">Georgia Institute of Technology - <i>Atlanta</i></p>
+            </div>
+            <p>
+              Will receive my master's degree in May 2026. 
+            </p>
+            <p>
+              I'm advised by Dr. Wilson on human decision-making research using deep learning approaches in the NDR lab.
+            </p>
+            <p>
+              I'm also working on Adaptive VR system based on biosignals under the Sonification Lab, directed by Dr. Walker.
+            </p>
+            <br/>
 
-            <p>MS in Computer Science (AI) - Georgia Institute of Technology</p>
-            <p>Software Engineer - BeyondEdge Networks</p>
-            <p>BS in Computer Science (HCI & CG), Minor in Psychology - Georgia Institute of Technology</p>
+
+            <div className="exp-list">
+              <h3>Software Engineer</h3>
+              <p className="sub-text">BeyondEdge Networks - <i>Dallas</i></p>
+            </div>
+            {/* <p>Worked on large-scale data for network automation and management for 2 years. My primary contributions were </p>
+            <ul>
+              <li>Dynamic real-time data visualization & LLM guided user experience design</li>
+              <li>Data structure design and implementation & OOP system architecture development</li>
+            </ul>
+            <p>I enjoyed working with my team and learned a lot. At a technical level, I learned how to operate projects
+              with large-scale systems. At a personal level, I learned how to communicate and collaborate effectively.</p>
+            <br/> */}
+            <div className="exp-list">
+              <h3>BSCS (HCI & CG), Minor in Psychology</h3>
+              <p className="sub-text">Georgia Institute of Technology - <i>Atlanta</i></p>
+            </div>
         </TextBlock>
 
         {/* <TextBlock label="research" title="My current thoughts are on" delay={0.6}>
