@@ -68,6 +68,9 @@
       height: auto;
       object-fit: cover;
     }
+    iframe {
+      aspect-ratio: 16 / 9;
+    };
   }
 
   .gallery-text-pair-text {

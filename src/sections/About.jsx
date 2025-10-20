@@ -29,27 +29,43 @@ In my free hours, I mostly zoom out, sometimes play the piano, paint and take ph
           {/* <br/> */}
           <p>In my free hours, I mostly zoom out, sometimes play the piano, paint and take photos.</p>
           <br/>
-          <label>details</label>
+          
+          <label>trajectory</label>
             <div className="exp-list">
               <h3>MSCS (AI)</h3>
-              <p className="sub-text">Georgia Institute of Technology - <i>Atlanta</i></p>
+              <p className="sub-text">Georgia Institute of Technology - Atlanta</p>
             </div>
             <p>
-              Will receive my master's degree in May 2026. 
+              graduating in May 2026 
             </p>
             <p>
-              I'm advised by Dr. Wilson on human decision-making research using neural networks in the NDR lab.
+              I'm advised by &nbsp;
+              <a
+                href="https://scholar.google.com/citations?user=4LxikSIAAAAJ&hl=en"
+              >
+                Dr. Wilson 
+              </a>
+               &nbsp;on human decision-making research using neural networks in the NRD (Neuroscience for Reinforcement learning and Decision-making) lab.
             </p>
             <p>
-              I'm also working on Adaptive VR system based on biosignals under the Sonification Lab, directed by Dr. Walker.
+              I'm also working on Adaptive VR system based on biosignals under the &nbsp;
+              <a
+                href="http://sonify.psych.gatech.edu/"
+              >
+                Sonification Lab
+              </a>&nbsp;, directed by Dr. Walker.
             </p>
             <br/>
 
 
             <div className="exp-list">
               <h3>Software Engineer</h3>
-              <p className="sub-text">BeyondEdge Networks - <i>Dallas</i></p>
+              <p className="sub-text">BeyondEdge Networks - Dallas</p>
             </div>
+            <p>
+              OOP, data vis, system design, etc
+            </p>
+            <br/>
             {/* <p>Worked on large-scale data for network automation and management for 2 years. My primary contributions were </p>
             <ul>
               <li>Dynamic real-time data visualization & LLM guided user experience design</li>
@@ -60,7 +76,7 @@ In my free hours, I mostly zoom out, sometimes play the piano, paint and take ph
             <br/> */}
             <div className="exp-list">
               <h3>BSCS (HCI & CG), Minor in Psychology</h3>
-              <p className="sub-text">Georgia Institute of Technology - <i>Atlanta</i></p>
+              <p className="sub-text">Georgia Institute of Technology - Atlanta</p>
             </div>
         </TextBlock>
 

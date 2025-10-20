@@ -31,8 +31,8 @@ function Projects() {
     {
       title: "Art Misc",
       tools: "",
-      image: "/img/photo_paintings/nyc.jpg",
-      hoverImage: "/img/photo_paintings/nyc.jpg",
+      image: "/img/art_misc/cover-1.png",
+      hoverImage: "/img/art_misc/cover-1.png",
       hoverVideo: null,
       link: "/coming-soon",
     },

@@ -31,15 +31,27 @@ function AvrPage() {
                 <TextBlock label="Overview" title="Your emotions change the world">
                     <p>
                         The core idea of the project explores how to understand the users' state of emotions through physiological data.
-                        And based on this understanding, making a world that guides through stress and anxiety.
+                        And based on this understanding, making a world that mitigates emotions or connects people.
                     </p>    
+                    <br/>
+                    <p>
+                        I started with emotion classifications based on EEG, but later realized its limitations and 
+                        shifted focus on using heart rate data and breathing data. 
+                    </p>
+                    <p>
+                        This is build for meta quest 3 using Unity, and the graphic is still a work in progress, stay tuned!
+                    </p>
+                    <br/>
+                    <p>
+                        If the animation isn't playing, view it <a href="https://youtube.com/shorts/GqHVuR1Z6OA">here</a>
+                    </p>
                 </TextBlock>
 
             </GalleryTextPair>
 
             <GalleryTextPair image="/img/avr/core-process.png" reverse>
-                <TextBlock label="Research Goal" title="Anxiety & Stress Mitigation">
-
+                <TextBlock label="Research Goal" title="1 - Anxiety & Stress Mitigation">
+                    <h2>2 - Empathic Entrainment</h2>
                 </TextBlock>
 
                 <TextBlock label="Artistic Goal" title="Explore Artistic Potentials in VR">

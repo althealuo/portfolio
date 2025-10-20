@@ -57,3 +57,13 @@ h3 {
     font-size: 0.85rem;
     color: $color-subtext;
 }
+
+a {
+    text-decoration: none;
+    color: $color-highlight;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
