@@ -4,14 +4,6 @@ import Divider from "../components/Divider";
 import TextBlock from "../components/TextBlock";
 
 function About() {
-
-  const story = `and wanted to explore them through tech. 
-  
-  I started with a focus in HCI and worked as a software engineer. On the side, I learned VR and enjoyed the possibility of immersive expression. Now I'm back in school, researching in CogAI.
-
-
-In my free hours, I mostly zoom out, sometimes play the piano, paint and take photos. 
-`;
   return (
     <section className="about-section">
   <div className="about-container">

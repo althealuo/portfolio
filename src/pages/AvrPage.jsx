@@ -104,7 +104,7 @@ function AvrPage() {
                         Below are the final models with textures and animations applied. 
                     </p>
                     <p>
-                        You can drag to rotate and scroll to zoom to see how the details interact with light.
+                        You can rotate and zoom to see how the details interact with light.
                     </p>
                 </TextBlock>
             </div>
