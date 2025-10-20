@@ -13,7 +13,7 @@ function SideNav() {
           </a>
         </li>
         <li><a href="#featured">featured</a></li>
-        <li><a href="#mind">mind</a></li>
+        <li><a href="#mind">Research</a></li>
         <li><a href="#arts">arts</a></li>
       </ul>
     </nav>

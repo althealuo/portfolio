@@ -48,7 +48,7 @@ function Loader() {
   return (
     <Html center>
       <div className="model-loader">
-        <div className="model-spinner" />
+        {/* <div className="model-spinner" /> */}
         <p>Loading...</p>
       </div>
     </Html>
@@ -56,15 +56,15 @@ function Loader() {
 }
 
 // 🧠 Main viewer
-export default function ModelViewer({ modelPath, rotation = [0, 0, 0] }) {
+export default function ModelViewer({ modelPath, rotation = [0, 0, 0], lightness = 0.2 }) {
   const [hasAnimation, setHasAnimation] = useState(false)
   const [isPlaying, setIsPlaying] = useState(false) // start paused by default
 
   return (
     <div className="model-viewer">
-      <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
+      <Canvas camera={{ position: [0, 0, 5], fov: 50 }} style={{ flex: '1' }}>
         <Suspense fallback={<Loader />}>
-          <ambientLight intensity={0.1} />
+          <ambientLight intensity={lightness} />
           {/* <directionalLight
             position={[2, 2, 3]}
             intensity={0.8}

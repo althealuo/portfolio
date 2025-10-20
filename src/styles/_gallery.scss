@@ -92,6 +92,7 @@
 
 .section-block {
   margin-bottom: 2rem;
+  width: 100%;
   ul {
     padding-left: 1.25rem;
   }
@@ -102,13 +103,19 @@
 // -----------------------------------------------------------
 
 .model-viewer {
-  display: flex;;
+  display: flex;
   flex-direction: column;
   align-items: center;
   background-color: $color-bg;
+  min-height: 30vh;
+  div {
+    div{
+      min-height: 30vh !important;
+    }
+  }
 
   canvas {
-    flex: 1;
+    height: 100%;
     background-color: transparent;
   }
 }
@@ -120,6 +127,7 @@
 .model-loader {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   color: $color-text;
 
@@ -128,22 +136,22 @@
   //   font-size: 0.9rem;
   // }
 
-  .model-spinner {
-    width: 30px;
-    height: 30px;
-    border: 3px solid $color-subtext;
-    border-top: 3px solid transparent;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-  }
+  // .model-spinner {
+  //   width: 30px;
+  //   height: 30px;
+  //   border: 3px solid $color-subtext;
+  //   border-top: 3px solid transparent;
+  //   border-radius: 50%;
+  //   animation: spin 1s linear infinite;
+  // }
 }
 
-// Spinner animation keyframes
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+// // Spinner animation keyframes
+// @keyframes spin {
+//   0% {
+//     transform: rotate(0deg);
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//   }
+// }
