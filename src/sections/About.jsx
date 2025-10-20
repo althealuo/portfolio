@@ -38,7 +38,7 @@ In my free hours, I mostly zoom out, sometimes play the piano, paint and take ph
               Will receive my master's degree in May 2026. 
             </p>
             <p>
-              I'm advised by Dr. Wilson on human decision-making research using deep learning approaches in the NDR lab.
+              I'm advised by Dr. Wilson on human decision-making research using neural networks in the NDR lab.
             </p>
             <p>
               I'm also working on Adaptive VR system based on biosignals under the Sonification Lab, directed by Dr. Walker.
