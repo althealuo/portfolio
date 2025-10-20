@@ -55,7 +55,7 @@ function About() {
               <p className="sub-text">BeyondEdge Networks - Dallas</p>
             </div>
             <p>
-              OOP, data vis, system design, etc
+              worked for 2 years and did OOP, data vis, system design, etc
             </p>
             <br/>
             {/* <p>Worked on large-scale data for network automation and management for 2 years. My primary contributions were </p>

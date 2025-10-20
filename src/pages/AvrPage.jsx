@@ -35,15 +35,23 @@ function AvrPage() {
                     </p>    
                     <br/>
                     <p>
-                        I started with emotion classifications based on EEG, but later realized its limitations and 
-                        shifted focus on using heart rate data and breathing data. 
+                        Currently, I'm working on this project myself under the &nbsp;
+                            <a
+                                href="http://sonify.psych.gatech.edu/"
+                            >
+                                Sonification Lab
+                            </a>.
+                        
+                        On the data side, I started with emotion classifications based on EEG, but later realized its limitations and 
+                        shifted focus on using heart rate data and breathing data, and I'm looking for collaborations. 
                     </p>
                     <p>
-                        This is build for meta quest 3 using Unity, and the graphic is still a work in progress, stay tuned!
+                        On the graphics side, I'm creating an underwater fantasy scene in Unity for meta quest 3.
+                        This is still a work in progress, stay tuned!
                     </p>
                     <br/>
                     <p>
-                        If the animation isn't playing, view it <a href="https://youtube.com/shorts/GqHVuR1Z6OA">here</a>
+                        The video was recorded in quest 3, if it isn't playing, view it <a href="https://youtube.com/shorts/GqHVuR1Z6OA">here</a>
                     </p>
                 </TextBlock>
 
