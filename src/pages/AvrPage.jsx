@@ -63,7 +63,7 @@ function AvrPage() {
 
             {/* <ModelViewer modelPath="/img/avr/fish_model11_blue.glb" rotation={[0, -Math.PI / 2, 0]} /> */}
             <GalleryTextPair image="/img/avr/fish-model.png" reverse>
-                <TextBlock label="Artistic Exploration" title="1.1 - Blender Modeling">
+                <TextBlock label="the fish" title="1.1 - Blender Modeling">
                     <p>
                         I first looked up fish references and modeled it in Blender as my base model. 
                         And I want to capture the shape using the minimum amount of polyons for optimized performance in VR, and obsviously it looks very coarse.
@@ -114,17 +114,33 @@ function AvrPage() {
                 { src: "/img/avr/fish_model11_red.glb", ratio: 1, rotation: [0, -Math.PI / 2, 0], lightness: 0.01 }
             ]} />
             <Divider />
-
             <GalleryTextPair image="/img/avr/avr-cover.PNG">
-                <TextBlock label="" title="2 - Flocking Animation">
+                <TextBlock label="animation" title="2 - Procedural Flocking">
                     <p>
-                        more to come...
+                        I re-used my project from the class Procedural Content Generation as the base of the animation. 
+                        Each fish, or boid has four forces - cohesion, separation, alignment and avoidance. 
+                    </p>
+                    <br/>
+                    <p>
+                        This was coded in C# in Unity.
+                    </p>
+                    <br/>
+                    <p className="sub-text">
+                        Reference: <br/>
+                        <a href="https://dl.acm.org/doi/10.1145/37402.37406"  
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="sub-text">
+                            Craig W. Reynolds (1987). “Flocks, Herds, and Schools: A Distributed Behavioral Model.”
+                        </a>
                     </p>
                 </TextBlock>
             </GalleryTextPair>
+            <GalleryColumn images={["/img/avr/flock2.PNG", "/img/avr/flock1.PNG"]} />
+            <Divider/>
 
-            <GalleryTextPair image="/img/avr/avr-cover.PNG">
-                <TextBlock label="" title="3 - Scene Setup">
+            <GalleryTextPair image="/img/avr/moodbroad.png">
+                <TextBlock label="underwater fantasy scene" title="3.1 - Moodbroad">
                     <p>
                         more to come...
                     </p>

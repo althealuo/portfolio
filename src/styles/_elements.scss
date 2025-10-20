@@ -53,9 +53,7 @@ h3 {
 
 
 .sub-text {
-    font-family: $font-body;
-    font-size: 0.85rem;
-    color: $color-subtext;
+    @include sub-text;
 }
 
 a {
@@ -65,5 +63,9 @@ a {
 
     &:hover {
         text-decoration: underline;
+    }
+
+    .sub-text{
+        @include sub-text;
     }
 }

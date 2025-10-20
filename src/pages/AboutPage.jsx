@@ -5,8 +5,8 @@ import Nav from "../components/Nav";
 function AboutPage() {
   return (
     <>
-      <About />
       <Nav />
+      <About />
     </>
   );
 }
