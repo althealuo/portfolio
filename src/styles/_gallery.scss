@@ -158,3 +158,43 @@
 //     transform: rotate(360deg);
 //   }
 // }
+
+
+// content-switcher 
+.content-switcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .content-container {
+    width: 100%;
+    transition: opacity 0.3s ease;
+  }
+
+  .switcher-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+
+    button {
+      border: none;
+      background: transparent;
+      color: $color-highlight;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    .switcher-indicator {
+      font-family: $font-body;
+      color: $color-subtext;
+      font-size: 0.85rem;
+    }
+  }
+}
