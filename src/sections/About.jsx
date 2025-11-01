@@ -26,36 +26,43 @@ function About() {
         <h3>MSCS (AI)</h3>
         <p className="sub-text">Georgia Institute of Technology - Atlanta</p>
       </div>
-      <p>graduating in May 2026</p>
-      <p>
-        I'm advised by&nbsp;
-        <a
-          href="https://scholar.google.com/citations?user=4LxikSIAAAAJ&hl=en"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Dr. Wilson
-        </a>
-        &nbsp;on human decision-making research using AI.
-      </p>
-      <p>
-        I'm also working on an Adaptive VR system under the&nbsp;
-        <a
-          href="http://sonify.psych.gatech.edu/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sonification Lab
-        </a>
-        , directed by Dr. Walker.
-      </p>
+      <div className="exp-content">
+
+        <p>graduating in May 2026</p>
+        <p>
+          I'm advised by&nbsp;
+          <a
+            href="https://scholar.google.com/citations?user=4LxikSIAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dr. Robert Wilson
+          </a>
+          &nbsp;on human decision-making research using AI.
+        </p>
+        <p>
+          I'm also working on an Adaptive VR system under the&nbsp;
+          <a
+            href="http://sonify.psych.gatech.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sonification Lab
+          </a>
+          , directed by Dr. Bruce Walker.
+        </p>
+      
+      </div>
       <br />
       <div className="exp-list">
         <h3>Software Engineer</h3>
         <p className="sub-text">BeyondEdge Networks - Dallas</p>
       </div>
-      <p>worked for 2 years doing OOP, data vis, system design, etc</p>
-      <p>side detail, I learned VR after work</p>
+
+      <div className="exp-content">
+        <p>worked for 2 years doing OOP, data vis, system design, UX, rapid prototyping, etc</p>
+        <p>side detail, I learned VR after work</p>
+      </div>
       <br />
       <div className="exp-list">
         <h3>BSCS (HCI & CG), Minor in Psychology</h3>

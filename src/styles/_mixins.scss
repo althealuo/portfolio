@@ -1,8 +1,12 @@
 @use './variables' as *;
 
+@mixin small-font{
+    font-size: 0.85rem;
+}
+
 @mixin sub-text{
     
     font-family: $font-body;
-    font-size: 0.85rem;
+    @include small-font();
     color: $color-subtext;
 }

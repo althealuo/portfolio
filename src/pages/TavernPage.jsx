@@ -63,7 +63,7 @@ function TavernPage() {
             <TextBlock label="selected works" title="Hand painted utensils">
                 <p>
                     The normal details are sculpted with the high-poly mesh in Zbrush, then baked onto the low-poly mesh in Painter.
-                    The textures are hand-painted in Substance Painter, adding a unique touch to each piece.
+                    I also hand painted the textures to add a unique touch to each piece.
                 </p>
             </TextBlock>
         </GalleryTextPair>
