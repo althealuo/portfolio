@@ -1,8 +1,7 @@
 @use './global' as *;
 
 .navbar {
-  position: absolute;
-  // position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -10,28 +9,51 @@
 
   display: flex;
   justify-content: flex-start;
-  padding: 16px 0px;
-  // background-color: $color-bg; // prevent transparency over content
+  padding: 16px 0;
+  background-color: transparent;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.4s ease;
+  transform: translateY(0);
 
+  // --- When scrolled down slightly (adds bg + shadow)
+  &.scrolled {
+    background-color: $color-bg;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(8px); // optional: subtle glass effect
+  }
+
+  // --- When scrolling down quickly (hide nav)
+  &.hidden {
+    transform: translateY(-100%);
+  }
+
+  // --- Nav links container
   .nav-links {
     display: flex;
     list-style: none;
     gap: 3rem;
-    background-color: $color-bg;
     padding: 0 1.5rem;
+    margin: 0;
 
     .nav-item {
       font-size: 0.85rem;
+      font-family: $font-body;
+      font-weight: $weight-normal;
 
       a {
         text-decoration: none;
         color: $color-text;
         cursor: pointer;
+        position: relative;
+        transition: color 0.2s ease;
 
         &.MainColorHighlight {
           color: $color-highlight;
         }
 
+        // underline hover animation
         &::after {
           content: '';
           display: block;
@@ -39,11 +61,13 @@
           height: 0.8px;
           background-color: $color-highlight;
           transition: width 0.3s ease;
+          position: absolute;
+          bottom: -4px;
+          left: 0;
         }
 
         &:hover::after {
           width: 100%;
-          transition: width 0.3s ease;
         }
       }
     }
