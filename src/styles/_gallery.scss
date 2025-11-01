@@ -192,9 +192,8 @@
     }
 
     .switcher-indicator {
-      font-family: $font-body;
-      color: $color-subtext;
-      font-size: 0.85rem;
+      @include sub-text;
+      padding-bottom: 0.5rem;
     }
   }
 }
