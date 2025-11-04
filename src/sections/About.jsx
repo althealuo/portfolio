@@ -78,7 +78,10 @@ function About() {
           <img src="/img/my-pic-1.png" alt="Althea Portrait" className="portrait-img" />
         </div>
 
-        <ContentSwitcher items={[myStory, trajectory]} />
+        <div className="about-content">
+
+          <ContentSwitcher items={[myStory, trajectory]} />
+        </div>
       </div>
     </section>
   );

@@ -67,6 +67,10 @@
   animation: fadeSlideUp 0.8s ease-out forwards;
 }
 
+.about-container{
+  max-width: 60rem;
+}
+
 @media (max-width: 768px) {
   .exp-list {
     flex-direction: column;
