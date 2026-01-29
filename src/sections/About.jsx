@@ -16,7 +16,7 @@ function About() {
         a weird journey, but now I'm researching Cognitive AI and making VR art. So it's working out.
       </p>
       <br />
-      <p>In my free hours, I mostly zoom out and walk, sometimes play the piano, paint and take photos.</p>
+      <p>In my free hours, I like going on a long walk and zoom out, or play the piano, paint and take photos.</p>
     </TextBlock>
   );
 
