@@ -22,7 +22,7 @@ function AvrPage() {
     <>
         <ProjectBasePage
             image="/img/avr/avr-cover.PNG"
-            title="Adaptive VR based on Biosignals"
+            title="Affect Driven Adaptive VR"
             tools="Unity, Blender, Substance Painter, Zbrush"
         >
 

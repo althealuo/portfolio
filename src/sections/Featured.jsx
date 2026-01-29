@@ -13,7 +13,7 @@ function Featured() {
     // },
 
     {
-      title: "Adaptive VR based on Biosignals",
+      title: "Affect Driven Adaptive VR",
       tools: "Unity, Blender, Substance Painter, ZBrush",
       image: "/img/avr/avr-cover.PNG",
       // hoverVideo: "/img/avr/avr-video.mp4",

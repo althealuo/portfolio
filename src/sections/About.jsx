@@ -5,18 +5,18 @@ function About() {
   const myStory = (
     <TextBlock label="my story" title="I enjoy thinking and creating,">
       <p>
-        or the philosophy of mind and art to be concrete. But philosophy is a big word that
-        brings in too much assumptions. I personally just enjoy observing, reflecting and
-        abstracting ideas from human behaviors and relate it to how the mind works.
+        or philosophy of the mind and art. In my most natural state, I observe, reflect and
+        abstract ideas from human behaviors and relate it to how the mind works. Often, I find expressions
+        to be hard, yet art makes it easier. 
       </p>
       <br />
       <p>
-        I did CS all the way, sprinkled with some art and psychology. I think it will enable me
+        I did CS all the way, topped off with graphics and psychology. I thought it would enable me
         to do the things I want to do better than only doing the things themselves. It has been
         a weird journey, but now I'm researching Cognitive AI and making VR art. So it's working out.
       </p>
       <br />
-      <p>In my free hours, I mostly zoom out, sometimes play the piano, paint and take photos.</p>
+      <p>In my free hours, I mostly zoom out and walk, sometimes play the piano, paint and take photos.</p>
     </TextBlock>
   );
 
@@ -60,8 +60,8 @@ function About() {
       </div>
 
       <div className="exp-content">
-        <p>worked for 2 years doing OOP, data vis, system design, UX, rapid prototyping, etc</p>
-        <p>side detail, I learned VR after work</p>
+        <p>worked for 2 years doing OOP & System Design, Data Vis, UX, etc</p>
+        <p>After work, I taught myself VR using Blender, Substance Suites and Zbrush</p>
       </div>
       <br />
       <div className="exp-list">

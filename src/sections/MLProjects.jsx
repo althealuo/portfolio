@@ -4,12 +4,16 @@ import MLProjectCard from "../components/MLProjectCard";
 function MLProjects() {
   const mlProjects = [
     {
+      title: "Random Exploration is Random",
+      subtitle: "Building Neural Networks to Understand Human Behaviors",
+    },
+    {
       title: "Personality and Language Models",
       subtitle: "Measure Big Five Inventory Convergence with Word Embedding Models and Generative AI",
     },
     {
       title: "Emotion Classification with Deep Learning",
-      subtitle: "Using Brain-inspired Machine Intelligence for emotion recognition",
+      subtitle: "Using Brain-inspired Machine Intelligence for EEG-based Emotion Recognition",
     },
   ];
 
