@@ -8,13 +8,17 @@
 
   .intro-image-wrapper {
     // width: min(100%, 900px);
-    aspect-ratio: 21 / 9;
     overflow: hidden;
     width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+
+    .cinematic{
+      
+      aspect-ratio: 21 / 9;
+    }
 
     img {
       width: 100%;

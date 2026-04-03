@@ -2,11 +2,11 @@
 // import "../styles/project-page.scss";
 
 
-function ProjectIntro({ image, title, tools }) {
+function ProjectIntro({ image, title, tools, cinematic=true }) {
   return (
     <div className="project-intro centered-layout">
         
-      <div className="intro-image-wrapper">
+      <div className={`intro-image-wrapper ${cinematic ? "cinematic" : ""}`}>
         <img src={image} alt={title} />
       </div>
       <p className="intro-title">
