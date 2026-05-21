@@ -23,7 +23,7 @@ function Featured() {
 
     
     {
-      title: "Deconstruct - Chaos - Reemerge",
+      title: "Chaos",
       tools: "Original Artwork Presenting at Art Crawl Exhibition April 2026",
       image: "/img/art_misc/chaos.png",
       // hoverVideo: "/img/avr/avr-video.mp4",

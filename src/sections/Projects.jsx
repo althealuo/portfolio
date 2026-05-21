@@ -7,7 +7,16 @@ function Projects() {
     
   {
     title: "Affect Driven Adaptive VR",
-    tools: "Unity, Blender, Substance Painter, ZBrush",
+    tools: "Unity, Blender, Substance Painter, ZBrush, Quest 3",
+    image: "/img/avr/avr-cover.PNG",
+    // hoverVideo: "/img/avr/avr-video.mp4",
+    hoverImage: "/img/avr/avr-cover.PNG",
+    link: "/avr",
+  },
+
+  {
+    title: "Praxis XR",
+    tools: "Virtual Factory for Assembling Training | Unity, Blender, Substance Painter, Quest 3",
     image: "/img/avr/avr-cover.PNG",
     // hoverVideo: "/img/avr/avr-video.mp4",
     hoverImage: "/img/avr/avr-cover.PNG",
@@ -17,7 +26,7 @@ function Projects() {
   
   {
       title: "Cukoo Orrery",
-      tools: "Blender, Substance Painter, ZBrush",
+      tools: "Original Design of a Mechanical Orrery | Blender, Substance Painter, ZBrush",
       image: "/img/gyro/main.png",
       hoverVideo: "/img/gyro/animation.mp4",
       hoverImage: null,
@@ -25,7 +34,7 @@ function Projects() {
     },
     {
       title: "VR Tavern Assets",
-      tools: "Blender, Substance Painter, Substance Designer, ZBrush",
+      tools: "Optimized Low-Poly 3D Models for Real-Time VR | Blender, Substance Painter, Substance Designer",
       image: "/img/tavern_assets/main.png",
       hoverImage: "/img/tavern_assets/main-wireframe.png",
       hoverVideo: null,
@@ -33,7 +42,7 @@ function Projects() {
     },
     {
       title: "Witch's Table",
-      tools: "Blender, Substance Painter, ZBrush",
+      tools: "Learning Project to Create a Fantasy 3D Environment | Blender, Substance Painter, ZBrush",
       image: "/img/table/main.png",
       hoverImage: "/img/table/main.png",
       hoverVideo: null,

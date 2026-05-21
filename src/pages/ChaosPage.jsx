@@ -13,16 +13,15 @@ function ChaosPage() {
     <>
         <ProjectBasePage
             image="/img/art_misc/chaos.png"
-            title="Deconstruct - Chaos - Reemerge"
+            title="Chaos"
             cinematic={false}
             tools="Original Artwork Presenting at Art Crawl Exhibition April 2026"
         >
 
 
             <GalleryTextPair image="/img/art_misc/chaos_3.png">
-                <TextBlock label="idea" title="The iterations of growth">
-                    I think it's a process that breaks one's self-identity into pieces. For a while, everything floats around in the midair
-                     like chaos. But eventually, it will clear up.
+                <TextBlock label="idea" title="Deconstruct - Chaos - Reemerge">
+                    The iterations of growth
                 </TextBlock>
 
             </GalleryTextPair>

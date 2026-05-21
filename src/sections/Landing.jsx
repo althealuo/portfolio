@@ -57,7 +57,7 @@ function Landing() {
         <div className="landing-overlay">
           <p className="landing-title">althea / Yingkang Luo</p>
           <p className="landing-subtext">Researcher - AI + Cognition</p>
-          <p className="landing-subtext">Artist - VR 3D</p>
+          <p className="landing-subtext">Freelancing Artist - VR 3D</p>
         </div>
         {/* <div className="landing-left">
           <p className="landing-title">Althea</p>
