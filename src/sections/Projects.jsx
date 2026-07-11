@@ -5,14 +5,14 @@ import ProjectCard from "../components/ProjectCard";
 function Projects() {
   const projectList = [
     
-  {
-    title: "Affect Driven Adaptive VR",
-    tools: "Unity, Blender, Substance Painter, ZBrush, Quest 3",
-    image: "/img/avr/avr-cover.PNG",
-    // hoverVideo: "/img/avr/avr-video.mp4",
-    hoverImage: "/img/avr/avr-cover.PNG",
-    link: "/avr",
-  },
+  // {
+  //   title: "Affect Driven Adaptive VR",
+  //   tools: "Unity, Blender, Substance Painter, ZBrush, Quest 3",
+  //   image: "/img/avr/avr-cover.PNG",
+  //   // hoverVideo: "/img/avr/avr-video.mp4",
+  //   hoverImage: "/img/avr/avr-cover.PNG",
+  //   link: "/avr",
+  // },
 
   {
     title: "Praxis XR",
@@ -48,14 +48,24 @@ function Projects() {
       hoverVideo: null,
       link: "/table",
     },
+    
     {
-      title: "Art Misc",
-      tools: "",
-      image: "/img/art_misc/cover-1.png",
-      hoverImage: "/img/art_misc/cover-1.png",
-      hoverVideo: null,
-      link: "/coming-soon",
+      title: "Chaos",
+      tools: "Original Artwork Presenting at Art Crawl Exhibition April 2026",
+      image: "/img/art_misc/chaos.png",
+      // hoverVideo: "/img/avr/avr-video.mp4",
+      hoverImage: "/img/art_misc/chaos.png",
+      link: "/chaos",
     },
+
+    // {
+    //   title: "Art Misc",
+    //   tools: "",
+    //   image: "/img/art_misc/cover-1.png",
+    //   hoverImage: "/img/art_misc/cover-1.png",
+    //   hoverVideo: null,
+    //   link: "/coming-soon",
+    // },
   ];
 
   return (

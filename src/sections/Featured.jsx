@@ -12,23 +12,23 @@ function Featured() {
     //   link: "/gyro",
     // },
 
+    
     // {
-    //   title: "Affect Driven Adaptive VR",
-    //   tools: "Unity, Blender, Substance Painter, ZBrush",
-    //   image: "/img/avr/avr-cover.PNG",
+    //   title: "Chaos",
+    //   tools: "Original Artwork Presenting at Art Crawl Exhibition April 2026",
+    //   image: "/img/art_misc/chaos.png",
     //   // hoverVideo: "/img/avr/avr-video.mp4",
-    //   hoverImage: "/img/avr/avr-cover.PNG",
-    //   link: "/avr",
+    //   hoverImage: "/img/art_misc/chaos.png",
+    //   link: "/chaos",
     // },
 
-    
     {
-      title: "Chaos",
-      tools: "Original Artwork Presenting at Art Crawl Exhibition April 2026",
-      image: "/img/art_misc/chaos.png",
+      title: "Affect Driven Adaptive VR",
+      tools: "Unity, Blender, Substance Painter, ZBrush, Quest 3",
+      image: "/img/avr/avr-cover.PNG",
       // hoverVideo: "/img/avr/avr-video.mp4",
-      hoverImage: "/img/art_misc/chaos.png",
-      link: "/chaos",
+      hoverImage: "/img/avr/avr-cover.PNG",
+      link: "/avr",
     },
   ];
 
