@@ -9,6 +9,7 @@ import ContactPage from "./pages/ContactPage";
 import TavernPage from "./pages/TavernPage";
 import AvrPage from "./pages/AvrPage";
 import ChaosPage from "./pages/ChaosPage";
+import PraxisPage from "./pages/PraxisPage";
 // Importing styles
 import "./styles/main.scss";
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path="/gyro" element={<GyroPage />} />
       <Route path="/table" element={<TablePage />} />
       <Route path="/tavern" element={<TavernPage />} />
+      <Route path="/praxis" element={<PraxisPage />} />
 
       <Route path="/chaos" element={<ChaosPage />} />
 

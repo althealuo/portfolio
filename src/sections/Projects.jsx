@@ -16,11 +16,11 @@ function Projects() {
 
   {
     title: "Praxis XR",
-    tools: "Virtual Factory for Assembling Training | Unity, Blender, Substance Painter, Quest 3",
-    image: "/img/avr/avr-cover.PNG",
+    tools: "KIA Factory Simulation for Assembling Training | Unity, Blender, Substance Painter, Quest 3",
+    image: "/img/praxis/Hero-overlay.png",
     // hoverVideo: "/img/avr/avr-video.mp4",
-    hoverImage: "/img/avr/avr-cover.PNG",
-    link: "/avr",
+    hoverImage: "/img/praxis/Hero-overlay.png",
+    link: "/praxis",
   },
 
   
