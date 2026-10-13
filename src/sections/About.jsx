@@ -11,7 +11,7 @@ function About() {
       </p>
       <br />
       <p>
-        I did CS all the way, topped off with graphics and psychology. I thought it would enable me
+        I did CS all the way, focused on graphics and psychology. I thought it would enable me
         to do the things I want to do better than only doing the things themselves. It has been
         a weird journey, but now I'm researching Cognitive AI and making VR art. So it's working out.
       </p>

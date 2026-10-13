@@ -14,14 +14,14 @@ function Projects() {
   //   link: "/avr",
   // },
 
-  {
-    title: "Praxis XR",
-    tools: "KIA Factory Simulation for Assembling Training | Unity, Blender, Substance Painter, Quest 3",
-    image: "/img/praxis/Hero-overlay.png",
-    // hoverVideo: "/img/avr/avr-video.mp4",
-    hoverImage: "/img/praxis/Hero-overlay.png",
-    link: "/praxis",
-  },
+  // {
+  //   title: "Praxis XR",
+  //   tools: "KIA Factory Simulation for Assembling Training | Unity, Blender, Substance Painter, Quest 3",
+  //   image: "/img/praxis/Hero-overlay.png",
+  //   // hoverVideo: "/img/avr/avr-video.mp4",
+  //   hoverImage: "/img/praxis/Hero-overlay.png",
+  //   link: "/praxis",
+  // },
 
   
   {
@@ -49,14 +49,14 @@ function Projects() {
       link: "/table",
     },
     
-    {
-      title: "Chaos",
-      tools: "Original Artwork Presenting at Art Crawl Exhibition April 2026",
-      image: "/img/art_misc/chaos.png",
-      // hoverVideo: "/img/avr/avr-video.mp4",
-      hoverImage: "/img/art_misc/chaos.png",
-      link: "/chaos",
-    },
+    // {
+    //   title: "Chaos",
+    //   tools: "Original Artwork Presenting at Art Crawl Exhibition April 2026",
+    //   image: "/img/art_misc/chaos.png",
+    //   // hoverVideo: "/img/avr/avr-video.mp4",
+    //   hoverImage: "/img/art_misc/chaos.png",
+    //   link: "/chaos",
+    // },
 
     // {
     //   title: "Art Misc",
