@@ -1,14 +1,16 @@
 // src/pages/AboutPage.jsx
 import About from "../sections/About";
 import Nav from "../components/Nav";
-import AboutDetails from "../sections/AboutDetails";
+import Divider from "../components/Divider";
+import Footer from "../sections/Footer";
 
 function AboutPage() {
   return (
     <>
       <Nav />
       <About />
-      {/* <AboutDetails /> */}
+      <Divider />
+      <Footer />
     </>
   );
 }

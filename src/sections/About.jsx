@@ -1,5 +1,5 @@
 import TextBlock from "../components/TextBlock";
-import ContentSwitcher from "../components/ContentSwitcher";
+import Divider from "../components/Divider";
 
 function About() {
   const myStory = (
@@ -20,39 +20,78 @@ function About() {
     </TextBlock>
   );
 
-  const trajectory = (
-    <TextBlock label="trajectory" title="">
+  const education = (
+    <TextBlock label="Education" title="">
       <div className="exp-list">
         <h3>MSCS (AI)</h3>
         <p className="sub-text">Georgia Institute of Technology - Atlanta</p>
       </div>
       <div className="exp-content">
 
-        <p>graduating in May 2026</p>
+        {/* <p>graduating in May 2026</p> */}
         <p>
-          I'm advised by&nbsp;
+          Advised by &nbsp;
           <a
             href="https://scholar.google.com/citations?user=4LxikSIAAAAJ&hl=en"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Dr. Robert Wilson
+            Robert Wilson
           </a>
-          &nbsp;on human decision-making research using AI.
+          &nbsp;on interpretable neural networks for decision-making.
         </p>
         <p>
-          I'm also working on an Adaptive VR system under the&nbsp;
+          Worked under&nbsp;
           <a
-            href="http://sonify.psych.gatech.edu/"
+            href="https://scholar.google.com/citations?user=xY3zIEAAAAAJ&hl=en"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Sonification Lab
+            Bruce Walker
           </a>
-          , directed by Dr. Bruce Walker.
+          &nbsp;on Adaptive VR and affective computing. 
         </p>
       
       </div>
+      <br />
+      <div className="exp-list">
+        <h3>BSCS (HCI & CG), Minor in Psychology</h3>
+        <p className="sub-text">Georgia Institute of Technology - Atlanta</p>
+        
+      </div>
+      
+      <div className="exp-content"> 
+        <p>
+          Worked with &nbsp;
+          <a
+            href="https://scholar.google.com/citations?user=TaR3dq4AAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Rosa Arriaga
+          </a>
+          &nbsp;on HCI research for PTSD patients care. 
+        </p>
+        <p>
+          Worked with &nbsp;
+          <a
+            href="https://scholar.google.com/citations?user=ATIriQwAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Jay Bolter
+          </a>
+          &nbsp;on web-based VR Gallery.  
+        </p>
+
+      </div>
+
+    </TextBlock>
+  );
+
+  const experience = (
+    <TextBlock label="Work Experience" title="">
+
       <br />
       <div className="exp-list">
         <h3>Software Engineer</h3>
@@ -60,27 +99,34 @@ function About() {
       </div>
 
       <div className="exp-content">
-        <p>worked for 2 years doing OOP & System Design, Data Vis, UX, etc</p>
-        <p>After work, I taught myself VR using Blender, Substance Suites and Zbrush</p>
+        
+        <p className="sub-text">Fulltime</p>
+        <p>Network management and automation for large enterprise and datacenter networks</p>
+        <p>OOP System Design, Data Visualization, UX</p>
+        {/* <p>After work, I taught myself VR using Blender, Substance Suites and Zbrush</p> */}
       </div>
       <br />
-      <div className="exp-list">
-        <h3>BSCS (HCI & CG), Minor in Psychology</h3>
-        <p className="sub-text">Georgia Institute of Technology - Atlanta</p>
-      </div>
     </TextBlock>
   );
 
   return (
     <section className="about-section">
       <div className="about-container">
-        <div className="about-image">
-          <img src="/img/my-pic-1.png" alt="Althea Portrait" className="portrait-img" />
+        <div className="my-story">
+          <div className="about-image">
+            <img src="/img/my-pic-1.png" alt="Althea Portrait" className="portrait-img" />
+          </div>
+
+          <div className="about-content">
+            {myStory}
+          </div>
         </div>
 
-        <div className="about-content">
+        <Divider />
 
-          <ContentSwitcher items={[myStory, trajectory]} />
+        <div className="trajectory">
+          {education}
+          {experience}
         </div>
       </div>
     </section>

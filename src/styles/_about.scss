@@ -9,13 +9,23 @@
 
   .about-container {
       display: flex;
-      // gap: 4rem;
+      flex-direction: column;
       width: 100%;    
       margin: 0 12rem;
+  }
+
+  .my-story {
+      display: flex;
+      width: 100%;
+      min-height: 100vh;
       padding-top: 36px;
       gap: 6rem;
       align-items: center;
       justify-content: center;
+  }
+
+  .trajectory {
+      width: 100%;
   }
 
   .about-image {
@@ -84,10 +94,10 @@
     }
 
     
-    .about-container {
+    .my-story {
+      padding-top: 128px;
       flex-direction: column;
       align-items: center;
-      padding-top: 128px;
     }
   }
 
