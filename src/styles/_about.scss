@@ -63,9 +63,12 @@
     flex-direction: row;
 }
 .exp-content {
-    // p {
-    //   @include small-font();
-    // }
+  padding-left: 1.25rem;
+}
+.trajectory-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .about-image {
