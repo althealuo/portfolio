@@ -23,7 +23,7 @@ function About() {
   const education = (
     <TextBlock label="Education" title="">
       <div className="exp-list">
-        <h3>MSCS (AI)</h3>
+        <h3>M.S. in Computer Science (AI)</h3>
         <p className="sub-text">Georgia Institute of Technology - Atlanta</p>
       </div>
       <div className="exp-content">
@@ -55,7 +55,7 @@ function About() {
       </div>
       <br />
       <div className="exp-list">
-        <h3>BSCS (HCI & CG), Minor in Psychology</h3>
+        <h3>B.S. in Computer Science (HCI & CG), Minor in Psychology</h3>
         <p className="sub-text">Georgia Institute of Technology - Atlanta</p>
         
       </div>
@@ -94,13 +94,43 @@ function About() {
 
       <br />
       <div className="exp-list">
-        <h3>Software Engineer</h3>
-        <p className="sub-text">BeyondEdge Networks - Dallas</p>
+        <h3>Research Assistant</h3>
+        <p className="sub-text">Neuroscience of Reinforcement learning and Decision making Lab - Georgia Tech - Atlanta</p>
       </div>
 
       <div className="exp-content">
         
-        <p className="sub-text">Fulltime</p>
+        <p className="sub-text">Fulltime: 2026 - 2027</p>
+        <p>Interpreting individual differences in human cognitive behaviors using neural networks</p>
+        {/* <p>Optimized mesh poly counts by 50-80%</p> */}
+        {/* <p>After work, I taught myself VR using Blender, Substance Suites and Zbrush</p> */}
+      </div>
+
+      
+      <br />
+      <div className="exp-list">
+        <h3>VR Artist</h3>
+        <p className="sub-text">KIA & GT - Atlanta</p>
+      </div>
+
+      <div className="exp-content">
+        
+        <p className="sub-text">Part-time: 2026</p>
+        <p>Created and textured realistic 3D models for KIA factory simulation on assembling training </p>
+        <p>Optimized mesh poly counts by 50-80%</p>
+        {/* <p>After work, I taught myself VR using Blender, Substance Suites and Zbrush</p> */}
+      </div>
+
+      
+      <br />
+
+      <div className="exp-list">
+        <h3>Software Engineer</h3>
+        <p className="sub-text">BeyondEdge Networks - Dallas</p>
+      </div>
+      <div className="exp-content">
+        
+        <p className="sub-text">Fulltime: 2022 - 2024</p>
         <p>Network management and automation for large enterprise and datacenter networks</p>
         <p>OOP System Design, Data Visualization, UX</p>
         {/* <p>After work, I taught myself VR using Blender, Substance Suites and Zbrush</p> */}
