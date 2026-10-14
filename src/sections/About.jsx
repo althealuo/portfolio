@@ -6,6 +6,8 @@ const education = [
   {
     title: "M.S. in Computer Science (AI)",
     institute: "Georgia Institute of Technology - Atlanta",
+    image: "/img/GT seal logo.png",
+    imageAlt: "Georgia Institute of Technology seal",
     content: [
       <>
         Advised by{" "}
@@ -34,6 +36,8 @@ const education = [
   {
     title: "B.S. in Computer Science (HCI & CG), Minor in Psychology",
     institute: "Georgia Institute of Technology - Atlanta",
+    image: "/img/GT seal logo.png",
+    imageAlt: "Georgia Institute of Technology seal",
     content: [
       <>
         Worked with{" "}
@@ -66,6 +70,8 @@ const experience = [
     title: "Research Assistant",
     institute: "Neuroscience of Reinforcement learning and Decision making Lab - Georgia Tech - Atlanta",
     time: "Fulltime: 2026 - 2027",
+    image: "/img/GT seal logo.png",
+    imageAlt: "Georgia Institute of Technology seal",
     content: [
       "Interpreting individual differences in human cognitive behaviors using neural networks",
     ],
@@ -74,6 +80,8 @@ const experience = [
     title: "VR Artist",
     institute: "KIA & GT - Atlanta",
     time: "Part-time: 2026",
+    image: "/img/praxis/kia logo.png",
+    imageAlt: "KIA logo",
     content: [
       "Created and textured realistic 3D models for KIA factory simulation on assembling training",
       "Optimized mesh poly counts by 50-80%",
@@ -83,6 +91,8 @@ const experience = [
     title: "Software Engineer",
     institute: "BeyondEdge Networks - Dallas",
     time: "Fulltime: 2022 - 2024",
+    image: "/img/BE logo.png",
+    imageAlt: "BeyondEdge Networks logo",
     content: [
       "Network management and automation for large enterprise and datacenter networks",
       "OOP System Design, Data Visualization, UX",
@@ -100,9 +110,8 @@ function About() {
       </p>
       <br />
       <p>
-        I did CS all the way, focused on graphics and psychology. I thought it would enable me
-        to do the things I want to do better than only doing the things themselves. It has been
-        a weird journey, but now I'm researching Cognitive AI and making VR art. So it's working out.
+        I studied CS in my B.S. and M.S., focused on graphics and psychology. Currently,
+         I'm researching in the intersection of Cognitive Science and AI, while making VR art on the side. 
       </p>
       <br />
       <p>In my free hours, I like going on a long walk and zoom out, or play the piano, paint and take photos.</p>
