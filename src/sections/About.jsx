@@ -1,6 +1,8 @@
 import TextBlock from "../components/TextBlock";
 import Divider from "../components/Divider";
 import TrajectorySection from "../components/TrajectorySection";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const education = [
   {
@@ -128,12 +130,19 @@ function About() {
 
           <div className="about-content">
             {myStory}
+
+            <div className="cv-scroll">
+              <a className="cv-scroll-link" href="#trajectory">
+                <FontAwesomeIcon className="cv-scroll-arrow" icon={faArrowUp} />
+                <span>My CV</span>
+              </a>
+            </div>
           </div>
         </div>
 
         <Divider />
 
-        <div className="trajectory">
+        <div className="trajectory" id="trajectory">
           <TrajectorySection label="Education" entries={education} />
           <TrajectorySection label="Work Experience" entries={experience} />
         </div>

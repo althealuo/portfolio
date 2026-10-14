@@ -26,6 +26,7 @@
 
   .trajectory {
       width: 100%;
+      scroll-margin-top: 4rem;
 
       .text-block > label {
         display: block;
@@ -52,6 +53,22 @@
       font-size: 0.7rem;
       padding-right: 12px;
     }
+  }
+
+  .cv-scroll-link {
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: $color-highlight;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .cv-scroll-arrow {
+    transform: rotate(180deg);
   }
 
   .about-text {
