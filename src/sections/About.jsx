@@ -125,7 +125,7 @@ function About() {
       <div className="about-container">
         <div className="my-story">
           <div className="about-image">
-            <img src="/img/my-pic-1.png" alt="Althea Portrait" className="portrait-img" />
+            <img src="/img/ms pic 1.png" alt="Althea Portrait" className="portrait-img" />
           </div>
 
           <div className="about-content">
