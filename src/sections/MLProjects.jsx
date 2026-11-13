@@ -19,7 +19,7 @@ function MLProjects() {
     //   title: "How do Primates and Children Adaptively Make Decisions?",
     //   image: "",
     //   imageAlt: "",
-    //   status: "In Submission",
+    //   status: "Manuscript in Preparation",
     //   link: "",
     //   subtitle: ``,
     // },

@@ -195,8 +195,10 @@
 }
 @media (max-width: 768px) {
   .content-section .artwork {
-    height: 30vh;
+    height: auto;
     min-height: 0;
+    width: min(90%, 520px);
+    padding-block: 24px;
   }
 
   .ml-card {
