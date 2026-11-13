@@ -55,6 +55,22 @@
   display: flex;
 }
 
+.text-block-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 2rem;
+  width: 70%;
+  margin: 0 auto 2rem;
+
+  .text-block {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
 .gallery-text-pair {
   gap: 2rem;
   align-items: center;
