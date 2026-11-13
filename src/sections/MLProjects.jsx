@@ -8,7 +8,7 @@ function MLProjects() {
       image: "/img/ML/horizon_individual.png",
       imageAlt: "Model accuracy across Horizon Task conditions",
       status: "In Submission",
-      link: "",
+      link: "https://arxiv.org/abs/2611.17011",
       subtitle: `A new semester starts, do you want to take all major-related courses, or explore something new?
       When exploring, is it a deliberate move to reduce uncertainty,
       or a choice by chance? And is this "by chance" exploration truly random?  
