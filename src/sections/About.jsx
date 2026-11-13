@@ -100,6 +100,16 @@ const experience = [
       "OOP System Design, Data Visualization, UX",
     ],
   },
+  {
+    title: "Calculus Tutor",
+    institute: "University of North Georgia - Dahlonega",
+    time: "Part-time: 2019",
+    image: "/img/ung.png",
+    imageAlt: "University of North Georgia logo",
+    content: [
+      "Prepared materials and tutored students in Calculus 1 - 3",
+    ],
+  },
 ];
 
 function About() {
