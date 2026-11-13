@@ -251,8 +251,9 @@ function AvrPage() {
                 </TextBlock>
             </GalleryTextPair>
 
+            <Divider />
             <div className="text-block-grid">
-                <TextBlock label="Lighting" title="3.6 - Lighting" />
+                <TextBlock label="Lighting" title="4 - Lighting" />
                 <p> More to come..
                 </p>
             </div>
